@@ -1,0 +1,262 @@
+.qmBQLoginContent {
+	width: 528px;
+	padding: 0px;
+	margin:0px;
+	float: left;
+}
+
+.qmBQLoginContent {
+	margin-top: 20px;
+	width:410px;
+	
+} 
+ 
+.qmBQLoginRow {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 10px 0px 0px 0px; 
+} 
+ 
+.qmBQLoginRow label {
+	float: left;
+	width: 130px;
+	padding: 0px;
+	margin-top: 5px;
+	font: Bold 12px Arial;
+	color: #666666;
+	text-align: left;
+}
+ 
+.qmBQLoginRow span {
+	float: left;
+	width: 2px;
+	margin: 5px 28px 0px 0px;
+	padding: 0px;
+	font: normal 12px Arial;
+	color: #666666;	
+}  
+ 
+.qmBQLoginRow p {	
+	float: left;
+	width:250px;
+	padding: 0px;
+	margin: 0px;
+	font: Normal 12px Arial;
+	color: #666666;
+	text-align: left;
+}
+ 
+.qmBQLoginBtn {
+	margin: 15px 0px 0px 160px;
+	padding: 0px;
+	width: 250px;
+	display: inline-block;
+}
+
+.qmBQLoginBtn li {
+	list-style-type: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	font: normal 12px Arial; 
+	} 
+
+.qmBQErrorMsg {
+    border: 1px solid #CC0000;
+    color: #CC0000;
+    display: none;
+    float: left;
+    font: 12px/34px Arial;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    text-indent: 15px;
+    width: 650px;
+}
+ 
+ 
+.qmBQPFContianer {
+    float: left;
+    padding: 0;
+    border-left: 1px solid #dedede !important;
+    width:300px;
+} 
+
+
+.qmQBJN {
+    color: #333333;
+    float: left;
+    font: 12px/20px Arial;
+    height: 80px;
+    margin: 5px 0 0 26px;
+    padding-top: 32px;
+    width: 242px;
+}
+.qmBQPDLink {
+    color: #094575;
+    text-decoration: none;
+}
+
+.qmORBg {
+     background: url("../../images/qmOR.png") no-repeat scroll 0 0 transparent;
+    height: 29px;
+    margin: 46px 0 0 -28px;
+    width: 29px;
+}
+
+.qmBQFB {
+       margin-left: 52px;
+} 
+.qmBQLoginRow .mandatoryElement {
+    margin: 0 0 0 2px;
+	float : none;
+}
+.main_padd{padding:15px 24px;}
+.pgTitleBdr{border-bottom: 1px solid #D0D0D0; margin-bottom:15px; padding-bottom:10px;}
+h2.pageTitle {color: #3B3B3B; font-size: 21px; line-height:25px; margin: 0; padding: 0; text-transform: uppercase; font-family: "FuturaMedium";}
+
+.mainCnt ul{margin:0 0 0 0; padding:0;}
+.mainCnt ul li{margin:0 0 0 20px; padding:0; list-style-type:disc;}
+#qm_mainContent {
+    color: #555555;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+.minheight {
+    min-height: 300px;
+}
+.floatRightClass{
+	 float: right;
+}
+.qmBQMyProfileDiv a{
+	color: #094575;
+    text-decoration: underline;
+  
+}
+.qmBQMyProfileDiv a:hover {
+	text-decoration:none;
+}
+
+/* Request History Popup */ 
+.qmBQSRPopup {
+	width:700px;
+ 	padding: 20px; 
+	display: none;
+	z-index: 9999; 	
+	background: #ffffff;
+	position: fixed; 
+	top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -250px;
+	border: 10px solid #666666; 
+}
+
+.qmBQSRPopup1 {
+	width:700px;
+ 	padding: 20px; 
+	display: none;
+	z-index: 9999; 	
+	background: #ffffff;
+	position: fixed; 
+	top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -250px;
+	border: 10px solid #666666; 
+}
+
+.qmBQSRPopupHead  {
+	border-bottom: 1px solid #DEDEDE;
+    float: left;
+    margin: 10px 0;
+    padding: 0 0 5px;
+    width: 700px;
+}
+
+.qmBQSRPopup h3 {
+	width: 100%;
+	float: left;
+	height: 20px;
+	padding: 0px;
+	margin: 0px; 
+	font: normal 12px Arial; 
+}
+
+.qmBQSROverlay  {
+    background:url(../../images/img_overlay_bg.png) repeat;
+    
+    display: none;
+    left: 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+	height: 100%;
+    z-index: 999;
+} 
+
+.qmBQClose {
+    background-image: url("../../images/qmBQclose.png");
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    right: -20px;
+    top: -25px;
+    width: 35px;
+}
+
+.socialMediaText {
+    color: #333333;
+    float: left;
+    font: 12px/20px Arial;
+    margin: 5px 0 0 26px;
+    width: 242px;
+}
+
+.qmBtnFaceBook {
+    background: url("../../images/facebook-signin-ar.png") no-repeat 0 1px transparent;
+    border: 0 none;
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	margin: 5px 0 0;
+	width: 180px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #fff;
+    
+}
+
+.qmBtnTwitter {
+    background: url("../../images/twitter-signin-ar.png") no-repeat 0 1px transparent;
+    border: 0 none;
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	margin: 5px 0 0 0px;
+	width: 180px;
+	text-align: left;
+	padding: 5px 0 0 40px;
+	font-size: 11px;
+	color: #fff !important;
+	text-decoration: none !important;
+}
+.captchaimgText {
+	display:block;
+	width:200px;
+}
+
+.captchacls {
+	padding: 67px 0px 0px 0px !important;
+}
+
+.socialMediabuttons {
+	float:left;
+	width:300px;
+}
+
+.otpAddionalText {
+	padding-left:0.6em;
+}

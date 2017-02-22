@@ -1,0 +1,2212 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #e0e0e0;
+	}
+
+
+
+.qmBtnGreyL {
+    background: url("qmBtnGrey_l.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    margin: 0px 10px 0px 15px;
+    padding: 0px 0px 0px 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.qmBtnGreyL span {
+    background: url("qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
+    cursor: pointer;
+    float: left;
+    padding: 11px 20px 10px 13px;
+    padding: 9px 20px 11px 10px;
+    font: normal 12px Arial;
+    color: #333333 !important;
+    text-decoration: none;
+}
+
+
+
+/* .qmBtnGreyL {
+    background: url("../../images/qmBtnGrey_l.png") no-repeat left 0 transparent; 
+    float:right; 
+   margin: 0 0 0 10px;
+    padding: 0 0 0 7px;
+       font-weight: bold; 
+       text-decoration: none;
+}
+.qmBtnGreyL span {
+    background: url("../../images/qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
+    cursor: pointer;
+    float:left;
+       padding: 11px 12px 12px 13px;
+       font: normal 12px Arial;
+       color: #333333 !important;
+       text-decoration: none;
+       min-width: 175px;
+       text-align: center;
+} */
+
+p, h1, h2, h3, h4, h5, h6, span, ul, li, ol, div, label {
+	padding: 0px;
+	margin: 0px;
+	border: 0 none;
+	vertical-align:baseline;
+	} 
+
+a, img { outline: 0; border: 0;}
+
+a:hover {text-decoration:underline !important;}
+
+#qmShell,
+#qmHeaderContainer {
+	margin: 0 auto;
+    padding: 0;
+    width: 100%;
+	height: 100px;
+	}
+	
+@font-face {
+ font-family: 'FuturaMedium';
+ src: url('futura-webfont.eot');
+ src: url('../../fonts/futura-webfont.eot?#iefix') format('embedded-opentype'),
+ url('../../fonts/futura-webfont.woff') format('woff'),
+ url('../../fonts/futura-webfont.ttf') format('truetype'),
+ url('../../fonts/futura-webfont.svg?#FuturaMedium') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+/* === Header Starts === */
+#qmHeader {
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    width: 961px;
+}
+
+#qmUtilities {
+	display:inline;
+	float:right;
+	margin:0 0 0 0;
+	overflow:hidden;
+	width:777px;
+	font-family:arial;
+}
+
+#qmUtilities p.name {
+	color:#919AA4;
+	float:left;
+	font-size:0.8em;
+	padding:7px 0 1px 48px;
+	margin: 0px 0 0 0;
+	text-align:right;
+	width:390px;
+	line-height:1.2em;
+}
+
+#qmUtilities ul {
+	width:777px;
+	display:inline-block;
+	float:right;
+	list-style:none outside none;
+	margin: 10px 0px 0 0;
+	overflow:hidden;
+	/*position:relative;
+	z-index:100;*/
+	font-size: 0.9em;
+}
+#qmUtilities ul li {
+	float: right;
+	display: inline;
+	padding:0;
+	color: #919aa4;
+}
+#qmUtilities ul li.qmQmiles {
+	padding: 0 6px;
+	background: url("../../images/common/img_nav_pipe.gif") no-repeat right 0;
+}
+#qmUtilities ul li.qmStatus {
+	padding:0 0 0 4px;
+}
+#qmUtilities ul li.qmQmiles span, #qmUtilities ul li.qmStatus span {
+	font-weight: bold;
+}
+#qmUtilities ul li.qmAction {
+	padding:0 0 0 10px;
+	font-size: 0.8em;
+	color: #fff;
+}
+#qmUtilities ul li.qmHelp {
+	padding:0 0px 0 5px;
+}
+#qmUtilities ul li.qmLanguageSelector {
+	background:url("../../images/img_icon_datepicker_next.gif") no-repeat scroll right 0 transparent;
+	height:16px;
+	margin-left:15px;
+	padding:0 18px 0 0;
+}
+#qmUtilities ul li.qmLanguageSelector a:hover {
+	text-decoration:none;
+}
+#qmUtilities ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+#qmUtilities ul li a:hover {
+	text-decoration: none;
+}
+
+.qmAction a {
+	color: #fff !important; text-decoration: underline;
+	}
+a.qmLink, a.qmLink:visted, a.qmLink:active {
+    color: #fff !important;
+    text-decoration: underline;
+    
+}
+a.qmLink:hover {text-decoration: none;
+	
+}
+
+h1#qmLogo {
+	margin: 0;
+	padding: 0;
+}
+h1#qmLogo a {
+	color:#000000;
+	font-family:arial;
+	font-size:0.8em;
+	 text-decoration: none;
+}
+h1#qmLogo img {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	 padding-top: 25px;
+}
+
+
+
+div#qmLogopost {
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	float:left;
+}
+div#qmLogopost a {
+	color:#000000;
+	font-family:arial;
+	font-size:0.8em;
+	 text-decoration: none;
+	 margin-right:15px;
+	 display:inline-block;
+	 float:left;
+	 
+}
+div#qmLogopost img {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*langSelectorfinal style start*/
+
+#languageSelector {
+	display:none;
+	height:auto;
+	overflow:hidden;
+	top:95px;
+	padding:10px;
+	position:absolute;
+	width:896px;
+	z-index:1002;
+	-webkit-box-shadow: 0px 0px 10px #000000;
+	-moz-box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #000000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:3px;
+	width:745px;
+	padding:30px;
+	background:#eaeaea;
+	left:20%;
+}
+#languageSelector a#closeLanguageSelector, #close {
+	background:url(http://www.qatarairways.com/images/common/img_icon_close.png) right 0 no-repeat;
+	color:#702050;
+	font-size:11px;
+	float:right;
+	height:23px;
+	padding:6px 25px 0 0;
+	text-decoration:none;
+	text-indent:-9999px;
+	margin-right:-15px;
+}
+#languageSelector h2 {
+	text-transform:uppercase;
+	font: bold 1.4em futuraMedium;
+	margin-bottom:18px;
+}
+#languageSelector .regions {
+	overflow:hidden;
+}
+#languageSelector .regions li {
+	width:124px;
+	float:left;
+}
+#languageSelector .regions li a {
+	display:block;
+	padding:10px 10px 0;
+	border-left:1px solid #757575;
+	border-right:1px solid #bfbfbf;
+	height:72px;
+	background: #8d8d8d; /* for non-css3 browsers */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9f9f9f', endColorstr='#828282'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#9f9f9f), to(#828282)); /* for webkit browsers */
+	background: -moz-linear-gradient(top, #9f9f9f, #828282); /* for firefox 3.6+ */
+	color:#fff;
+	text-decoration:none;
+	font-size:0.7em;
+	position:relative;
+	font-weight:normal;
+	line-height:1.1;
+}
+#languageSelector .regions li a:hover {
+	background: #828282; /* for non-css3 browsers */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#919191', endColorstr='#747474'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#919191), to(#747474)); /* for webkit browsers */
+	background: -moz-linear-gradient(top, #919191, #747474); /* for firefox 3.6+ */
+}
+/*#languageSelector .regions li a span {
+	display:block;
+	background-image:url(../../images/header/nav/languageTabsMaps.png);
+	width:53px;
+	height:27px;
+	position:absolute;
+	bottom:12px;
+	left:27px;
+}*/
+
+
+/* anand addition start*/
+
+#languageSelector .regions li a span {
+	display:block;
+	width:53px;
+	height:27px;
+	position:absolute;
+	bottom:12px;
+	left:27px;
+	}
+
+#languageSelector .regions li a span img
+{
+	border:none;
+}
+
+/* anand addition end */
+#languageSelector .regions li.selected a, #languageSelector .regions li.ui-tabs-selected a {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff'); /* for IE */
+	background:#fff;
+	color:#333;
+	border:1px solid #ccc;
+	border-bottom:0;
+	border-left:0;
+	height:71px;
+}
+#languageSelector .regions li.ui-tabs-selected .international {
+	border-left:1px solid #ccc;
+}
+/*#languageSelector .ui-tabs-selected .international span {
+	background-position:-67px 0;
+}
+#languageSelector .europe span {
+	background-position:0 -42px;
+}
+#languageSelector .ui-tabs-selected .europe span {
+	background-position:-67px -42px;
+}
+#languageSelector .middleeast span {
+	background-position:0 -84px;
+}
+#languageSelector .ui-tabs-selected .middleeast span {
+	background-position:-67px -84px;
+}
+#languageSelector .africa span {
+	background-position:0 -126px;
+}
+#languageSelector .ui-tabs-selected .africa span {
+	background-position:-67px -126px;
+}
+#languageSelector .americas span {
+	background-position:0 -168px;
+}
+#languageSelector .ui-tabs-selected .americas span {
+	background-position:-67px -168px;
+}
+#languageSelector .asia span {
+	background-position:0 -210px;
+}
+#languageSelector .ui-tabs-selected .asia span {
+	background-position:-67px -210px;
+}*/
+/*#languageSelector .region {
+	background:#fff;
+	padding:30px 20px;
+	border:1px solid #ccc;
+	border-top:0;
+	margin-right:1px;
+	overflow:hidden;
+	clear:both
+}*/
+#languageSelector .region {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-right: 0 solid #CCCCCC;
+    border-style: none solid solid;
+    border-width: 0 0 1px 0;
+    clear: both;
+	overflow: hidden;
+    padding: 30px 20px;
+}
+#languageSelector .region ul {
+	margin:0;
+	font-size:0.75em;
+	padding-left:20px;
+	width:690px;
+}
+
+#languageSelector .region ul li {
+	border-bottom:1px solid #d0d0d0;
+	float:left;
+	margin:0 30px 0 0;
+	
+}
+#languageSelector .region ul li a {
+	color:#000;
+	text-decoration:none;
+	display:block;
+	height:25px;
+	line-height:25px;
+	width:200px;
+	background:url(http://www.qatarairways.com/images/common/img_icon_datepicker_next.gif) no-repeat right center;
+	font-family: tahoma;
+	
+}
+#languageSelector ol, ul {
+	list-style:none;
+}
+
+
+.ui-tabs .ui-tabs-hide {
+	display:none !important;
+}
+.ui-tabs .ui-tabs-panel {
+	background:none repeat scroll 0 0 transparent;
+	border-width:0;
+	display:block;
+	padding:1em 1.4em;
+}
+
+/*langSelectorfinal style end*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----- Main Navigation -----
+#qmNavigation01 {
+	float: left;
+	display: inline;
+	width: 281px;
+	margin:28px 0 0 0px;
+	padding: 0;
+}
+#qmNavigation01 ul {
+	margin: 0;
+	padding: 0;
+}
+
+#qmNavigation01 ul li {
+	display:inline;
+	float:left;
+	padding:0px 0 0 0;/*background: url(../../images/common/img_nav_pipe.gif) no-repeat right 8px;
+}
+#qmNavigation01 ul li.last {
+	background: none;
+}
+#qmNavigation01 ul li.selected {
+	background: #1F3F4C; 
+	display:inline;
+	float:left;
+	height:28px;
+	padding:0px;
+	behavior: url(PIE.htc); 
+	border-radius: 3px 3px 0px 0px;
+	-moz-border-radius: 3px 3px 0px 0px;
+ 	-webkit-border-radius: 3px 3px 0px 0px; 
+	position: relative;
+  }
+
+
+#qmNavigation01 ul li.selected a {
+	color:#FFFFFF;
+}
+#qmNavigation01 ul li a {
+	font-size: 0.8em;
+	color: #301e29;
+	font-family:arial;
+	padding: 7px 9px 0 9px;
+	text-decoration: none !important;
+	display:inline;
+	float:left;
+}
+#qmNavigation01 ul li a:hover {
+	text-decoration: underline;
+}
+*/
+
+/*---- Search ----*/
+#qmSearch {
+	float:right;
+	display: inline;
+	padding:18px 0px 0 0;
+	margin: 0 0 0 0;
+}
+#qmSearch form {
+	margin: 0;
+	padding: 0;
+}
+#qmSearch label {
+	display: none;
+}
+#qmSearch form input.qmSearchBox {
+	background-color:#F3F3ED;
+	border:1px solid #C3C3C3;
+	color:#919AA4;
+	display:inline;
+	float:left;
+	font-size:12px;
+	margin:0;
+	padding:5px 0 5px 8px;
+	width:197px;
+	height: 16px;
+}
+#qmSearch form input.submit {
+	height: 28px;
+	background: url("../../images/img_btn_search.jpg") 0 0 repeat-x;
+	border:1px solid #cfcfcf;
+	text-align: center;
+	margin:0 0 0 10px;
+	padding: 0 10px;
+	float: left;
+	display: inline;
+	cursor:pointer;
+}
+/* === Header Ends === */
+
+
+/* === Top Tab Menu Starts === */ 
+
+#qmTabContainerDIV_Home {
+    height: 96px;
+    margin: 0px auto 20px;
+    width: 961px; 
+	}
+	
+.qmTabContentMain {
+	width: 961px; 
+	margin: 0 auto;
+	position:absolute;
+	z-index: 999;
+	}
+	
+.qmTabContentMain ul.qmMainTab {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 44px; 
+	width: 100%;
+	font: 10px normal Tahoma, Arial, Helvetica, sans-serif;
+	 }
+	 
+.qmTabContentMain ul.qmMainTab li {
+	float: left;
+	margin: 0;
+	padding: 0px;
+	height: 44px !important;
+	border-right: solid 1px #315365;
+	border-left: solid 1px #43758e;
+	background: #e0e0e0;
+	overflow: hidden;
+	position: relative;
+ 	background: url("../../images/qmTab_bg.jpg") repeat-x;
+	background-position: 0 -45px;
+	}
+
+.qmTabContentMain .qmMainTab li.selected {
+	background: url("../../images/qmTab_bg.jpg") repeat-x;
+    background-position: 0 0;
+    color: #094575;
+	}
+
+.qmTabContentMain ul.qmMainTab li img {
+ 	float: left;
+ 	border: 0px;
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	margin: 10px 3px 0px 10px; 
+	cursor: pointer
+	}
+	
+.qmTabContentMain ul.qmMainTab li a {
+	text-decoration: none;
+	color: #ffffff;
+	display:block;
+	font: normal 12px "FuturaMedium", Arial; 
+	padding: 7px 4px 0 0px;
+	margin: 0px;
+	outline: none;
+	
+ 	height: 38px;
+	vertical-align: middle; 
+     }
+  
+.qmTabContentMain ul.qmMainTab li:hover {
+  	background: url("../../images/qmTab_bg.jpg") repeat-x;
+	height:44px;
+	background-position: 0 0;
+	color: #333333;
+	font-family: "FuturaMedium";
+	} 
+ 
+.qmTabContentMain ul.qmMainTab li.active,
+.qmTabContentMain ul.qmMainTab li.active a {
+ 	background: url("../../images/qmTab_bg.jpg") repeat-x;
+    background-position: 0 0;
+    color: #333333 !important;
+	font-family: "FuturaMedium";
+	}
+ 
+.qmTabContentMain .lastborder{
+	border-right: none;
+ 	}
+	
+.qmTabContentMain .qmTabContainer1 { 
+	border-top: none;
+ 	clear: both;
+	float: left; 
+	padding : 0px;
+	margin: 0px;
+	width: 961px;
+	height: 52px;
+	background: #ffffff;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	behavior: url(PIE.htc);
+	-moz-border-radius: 0px 0px 5px 5px;
+	-khtml-border-radius-: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+  	border-radius: 0px 0px 5px 5px; 
+    }
+	 
+ .leftCorner {
+	-moz-border-radius: 5px 0px 0px 0px;
+	-khtml-border-radius-: 5px 0px 0px 0px;
+	-webkit-border-radius: 5px 0px 0px 0px;
+  	border-radius: 5px 0px 0px 0px;
+	behavior: url(PIE.htc); 
+ 	}
+
+.rightCorner {
+	-moz-border-radius: 0px 5px 0px 0px;
+	-khtml-border-radius-: 0px 5px 0px 0px;
+	-webkit-border-radius: 0px 5px 0px 0px;
+  	border-radius: 0px 5px 0px 0px; 
+	behavior: url(PIE.htc);
+	 
+ 	}
+	
+.qmTabContentMain .qmTabContent {
+ 	width: 961;
+ 	margin: 0px;
+	padding: 0px; 
+	display: none;
+	position:absolute; 
+	background:#ffffff;
+     } 
+  
+/* --- Sub Items --- */  
+ ul.qmMainSubMenu {
+ 	width: 961px;
+	height: 30px;
+	float: left;
+	margin: 13px 0px 0px 0px;
+    padding: 0;
+ 	}
+	
+ ul.qmMainSubMenu li {
+ 	list-style-type: none;
+	display: block;
+	float: left; 
+	margin: 0px 5px 0px 2px;
+    padding: 0px;
+	}
+
+ ul.qmMainSubMenu li a {
+	display: inline-block;
+	padding: 5px 10px;
+ 	text-decoration: none;
+	font: normal 12px Arial; 
+	color: #333333; 
+	}
+
+ul.qmMainSubMenu li.qmBQMMSelected {
+	background: none repeat scroll 0 0 #E3E3E3;
+    border-radius: 3px 3px 3px 3px;
+    color: #094575 !important;
+    display: inline-block; 
+	margin: 0px 5px 0px 8px;
+	}
+
+ul.qmMainSubMenu li.qmBQMMSelected a {
+	color: #094575 !important;
+}
+	
+.qmBottomSpace {
+	padding-bottom: 20px !important;
+	}
+/* === Top Tab Menu Ends === */
+
+
+/* === Page Banner & Title  Starts === */  
+.qmBanner {
+	width:961px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0px;
+	}
+	
+#qmPageTitleSocial {
+	background-color: #FFFFFF;
+    clear: both;
+    margin: 0 auto;
+    padding: 15px 0 5px;
+    width: 961px;
+    position: relative;
+	}
+
+.qmPageTitleBorder {
+	border-bottom: 1px solid #D0D0D0;
+    height: auto;
+    margin: 0 23px;
+    min-height: 31px;
+	}
+
+.qmPageTitle {
+	float: left;
+    padding: 0 0 10px; 
+    width: 70%;
+	}
+
+.qmPageTitle h2 {
+	color: #3B3B3B !important;
+    display: block;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    z-index: 0 !important;
+
+	font-family: Arial;
+	} 
+	
+.qmPageTitle h1 {
+	color: #3B3B3B !important;
+    display: block;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    z-index: 0 !important;
+	
+	font-family: Arial;
+	} 
+
+ul.qmShareToolbar {
+	float: right;
+    margin-top: 5px;
+ 	text-align: right;
+	}
+
+ul.qmShareToolbar li, ul.qmShareToolbar li a  {
+	float:left;
+	padding: 0px 5px 0px 0px;
+	margin: 0px;
+	width: 16px;
+	height: 16px;
+	list-style-type: none;
+	text-decoration: none;
+	outline: none;	 
+	}
+
+.qmDivider {
+	border-right: solid 1px #333333;
+	padding-right: 10px !important;
+ 	}
+
+.qmLast {
+	padding-left: 10px !important;
+	}
+/* === Page Title Ends === */
+
+
+/* === Containers Starts === */
+#qmContentContainer,#qmFooterContentContainer { 
+     margin: 20px auto 0px auto; 
+     padding: 0;
+     width: 961px;
+} 
+
+#qmContentContainer1,#qmFooterContentContainer { 
+     margin: 20px auto 0px auto; 
+     padding: 0;
+     width: 961px;
+} 
+	
+#qmMainContentContainer {
+	background-color: #FFFFFF;
+	width: 915px;
+	padding: 20px 23px 15px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#qmMainContentContainerLogin {
+	background-color: #FFFFFF;
+	width: 961px;
+	padding: 20px 23px 15px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* === Containers Ends === */
+  
+  
+/* === Panels Start === */
+
+#qmLeftPanel {
+	width: 177px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-right: solid 1px #e3e3e3;
+  	}
+
+#qmCenterPanel {
+	float: left;
+	width: 520px;
+	padding: 0px 0px 0px 14px;
+	margin: 0px;
+	background: #fff;
+	}
+
+#qmRightPanel {
+	float: left;
+	width: 170px;
+	border-left: solid 1px #e3e3e3;
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 0px 14px;
+	}
+	
+#qmCenterPanel2col {
+	float: left;
+	width: 720px;
+	  padding: 0 0 60px;
+	margin: 0px;
+	}
+
+#qmMainPanel {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 915px;
+	}
+/* === Panels Ends === */	
+
+
+/* === Footer Starts === */
+#qmFooter {
+	display: block;
+    float: left;
+    font-family: arial;
+    margin: 15px 0 0;
+    padding: 0 23px 10px;
+    width: 915px;
+	}
+
+.qmFooterLeft {
+	float: left;
+    width: 700px;
+	}
+
+.qmFooterRight {
+	float: right;
+    text-align: right;
+    width: 221px;
+	}
+
+#qmFooter .qmFooterLeft {
+    float: left;
+    width: 650px;
+}
+#qmFooter .qmFooterRight {
+    float: right;
+    text-align: right;
+    width: 221px;
+}
+#qmFooter ul {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#qmFooter .qmFooterLeft ul {
+    margin-bottom: 5px;
+}
+#qmFooter ul.qmFooterExtras {
+    margin: 10px 0 15px;
+}
+#qmFooter .qmFooterRight ul {
+    clear: both;
+    float: right;
+    width: auto;
+}
+#qmFooter ul li {
+    border-right: 1px solid #747f8a;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    margin-right: 5px;
+    padding: 0px 5px 0px 0px;
+	color: #65707b;
+}
+#qmFooter ul li.first {
+    padding: 0 5px 0 0;
+}
+#qmFooter ul li.last {
+    border-right: medium none;
+    margin-right: 0;
+}
+#qmFooter .qmFooterRight ul li.last {
+    padding-right: 0;
+}
+#qmFooter ul li a {
+    color: #65707b;
+    font-weight: normal;
+    text-decoration: none;
+}
+#qmFooter p.copyright  {
+    color: #65707b;
+    float: right;
+    font-weight: normal;
+    margin: 10px 0 0;
+    padding: 2px 0 0;
+    text-decoration: none;
+	width: 100%;
+}
+#qmFooter p.copyright span {
+	 font-size: 11px;
+    font-weight: normal;	
+}
+/* === Footer Ends === */
+
+
+/* === Left Navigation Starts === */
+#qmLeftNav {
+    margin: 0;
+    padding: 0;
+    width: 172px;
+    background: none;
+}
+
+#qmLeftNav a.qmLnav {
+	cursor:pointer;
+ 	background: url("../../images/qmSubmenu.png") no-repeat scroll 3px 13px;
+	color:#333333;
+	display:block;
+ 	margin:0px;
+	padding:0px;
+	text-indent:14px;
+	text-decoration: none;
+	height: 31px;
+	line-height: 32px;
+	border: 0 none;
+	border-bottom: solid 1px #D0D0D0;  
+	font-weight: normal; 
+}
+
+#qmLeftNav a {
+	background: none ;
+    border-bottom: 1px solid #D0D0D0;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    font: normal 12px Arial; 
+    height: 31px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: 14px; 
+ }
+ 
+#qmLeftNav a:hover {
+	color:#333333; 
+	background-color:#E3E3E3;
+} 
+#qmLeftNav a.selected {
+	color:#333333; 
+	background-color:#E3E3E3;
+}
+
+#qmLeftNav a.qmLnav:hover {
+	color:#333333; 
+	background-color:#E3E3E3;
+}
+#qmLeftNav a.qmLnav.selected {
+	background:  url("../../images/qmSubmenu_s.png") no-repeat scroll 3px 13px;
+ }
+#qmLeftNav a.current {
+	background-color:#E3E3E3;
+}
+#qmLeftNav ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#qmLeftNav li {
+	list-style:none; 
+	
+}
+#qmLeftNav li ul {
+	display: none;
+}
+
+#qmLeftNav li li a {
+	color:#333333;
+	display:block;
+	text-indent:10px;
+	text-decoration: none;
+	height: 31px;
+	line-height: 32px;
+	border-bottom: solid 1px #D0D0D0; 
+	padding-left: 14px !important;
+	font-size: 11px !important;
+}
+#qmLeftNav li li a:hover {
+	background-color:#E3E3E3;
+	color:#333333;
+} 
+
+/* === Left Navigation Ends === */
+#qmHeaderContainer { background: #662046; }
+
+.qmBorderLTR {
+    border-bottom: 5px solid #CFCFCF !important;
+    border-left: 1px solid #CFCFCF !important;
+    border-right: 1px solid #CFCFCF !important;
+}  
+
+.qmBorderNone { border: none !important; }
+
+.qmBRNone { border-right: none !important; } 
+
+.qmBB {   border-bottom: 1px solid #DEDEDE !important; } 
+
+.qmBQBRRight { border-right: 1px solid #D7DAE0; } 
+
+.qmBQBRLeft { border-left: 1px solid #D7DAE0;}
+
+.qmFloatR, .flR { float: right !important; }
+
+.qmFloatL, .flL { float: left !important; }
+
+.btm0 { bottom: 0;}
+
+.qmBQPDLast { margin-right: 0px !important; }
+
+.col{float: left; font:normal 12px Arial; color:#333333;}
+.col h4 {
+	font-size:12px;
+}
+ 
+.block{display:block;}
+
+.txtRight { text-align:right !important; }
+.txtCenter { text-align:center !important; }
+
+.cf:before,
+.cf:after {content:"";display:table;}
+.cf:after {clear:both;}
+.cf {zoom:1; font:normal 12px Arial;}
+
+.col-1{width:289px;}
+.gutr{margin-right:24px;}
+.gutr2{margin-right:10px;}
+.gutr3{margin-right:1%;}
+
+.mt0{margin-top:0px;}
+.mt5{margin-top:5px !important;} 
+.mt10{margin-top:10px !important;}
+.mt15{margin-top:15px !important;}
+.mt20{margin-top:20px !important;}
+.mt30{margin-top:30px !important;}
+.mt50{margin-top:50px !important;}
+.mb0{margin-bottom:0px !important;}
+.mb10{margin-bottom:10px !important;}
+.mr5{margin-right:5px !important;}
+.mr10{margin-right:10px !important;}
+.mr0{margin-right:0px !important;}
+
+.pb0{padding-bottom:0px !important;}
+.pl0{padding-left: 0px !important;}
+.ptl0{padding-top:1 0px !important;}
+.pt15{padding-top: 15px !important;}
+.ml80{margin-left:80px !important;}
+.ml210{margin-left:210px !important;}
+.ml10{margin-left:10px !important;}
+.ml13{margin-left:13px!important;}
+.ml15{margin-left:15px !important;}
+.ml20{margin-left:20px !important;}
+.ml50{margin-left:50px !important;}
+.ml160{margin-left:160px !important;}
+.ml5{margin-left:5px !important;}
+
+.lrpadd{padding:0 15px;}
+.pr15{padding-right: 15px;}
+
+.w20pg{width:20%;}
+.w30pg{width:30%;}
+.w33pg{width:33%;}
+.w35pg{width:35%;}
+.w40pg{width:40%;}
+.w45pg{width:45%;}
+.w50pg{width:50%;}
+.w55pg{width:55%;}
+.w65pg{width:65%;}
+.w60pg{width:60%;}
+.w85pg{width:85%;}
+.w100pg{width:100% !important;}
+
+.w20{width:20px !important;}
+.w30{width:30px !important; }
+.w40{width:40px !important;}
+.w55{width:55px !important;}
+.w65{width:65px !important;}
+.w72{width:72px !important;} 
+.w75{width:75px !important;}
+.w85{width:85px !important;}
+.w94{width:94px !important;}
+.w110{width:110px !important;}
+.w101{width:101px !important;}
+.w102{width:102px !important;}
+.w103{width:103px !important;}
+.w115{width:115px !important;}
+.w125{width:125px !important;}
+.w135{width:135px !important;}
+.w140{width:140px !important;}
+.w142{width:142px !important;}
+.w143{width:143px !important;}
+.w150{width:150px !important;}
+.w155{width:155px !important;}
+.w160{width:160px !important;}
+.w168{width:168px !important;}
+.w170{width:170px !important;}
+.w180{width:180px !important;}
+.w191{width:191px !important;}
+.w200{width:200px !important;}
+.w210{width:210px !important;}
+.w213{width:213px !important;}
+.w223{width:223px !important;}
+.w225{width:225px !important;}
+.w230{width:230px !important;}
+.w232{width:232px !important;}
+.w250{width:250px !important;}
+.w300{width:300px !important;}
+
+
+.smlTxt{font-size:10px;}
+.txt11px{font:11px Arial !important;}
+.medTxt{font-size:12px;}
+.txt13px{font-size:13px;}
+.lrgTxt{font-size:14px;}
+.txt15px{font-size:15px;}
+.txt16px{font-size:16px;}
+.txt18px{font-size:18px;}
+.bold{font-weight:bold;}
+.fnt {font-family:Arial;}
+.lh10{line-height:10px;}
+
+.green{color:#288902;}
+
+.txtColorB { color: #094575 !important; }
+
+.burgundy { color: #712251 !important; }
+
+.qmColorBurgundy { color:#752655 !important; } 
+ 
+.txtGrey12px { font: 12px Arial !important; color: #666666 !important; }
+
+.txtColor { color: #333333 !important; }
+
+/* ==== Waiting Screen Start ==== */
+.loader {
+	background-color:#ffffff; 
+	font-size:12px;
+	height:auto;
+	line-height:1.2em;
+	margin:100px auto;
+	padding: 0 0 20px 0;
+	overflow:hidden;
+	width:640px;
+	z-index:999;
+}
+ .loader .loadingText {
+	float:left;
+	height:auto;
+	overflow:hidden;
+	padding: 20px 0 0 31px;
+    width: 272px;
+}
+ .loader .loadingImage {
+	margin: 20px 0 0 10px;
+}
+ .loader .loadingAnimation {
+	float:left;
+	margin: 0 10px 0 0;
+}
+ .loader p {
+	border-top:1px solid #999;
+	color:#000;
+	padding:20px 0;
+	font: normal 12px Arial;
+}
+
+ .loader span {
+	border-top:1px solid #999;
+	color:#000;
+	padding:20px 0;
+	font: normal 12px Arial;
+}
+ .loader h2 {
+	font-size:1.2em;
+	padding-bottom:30px;
+	padding-top:20px;
+	
+	font-family:FuturaMedium;
+ }
+	
+.waitingScrnOverlay { 
+    display: none; 
+	height: 100%; 
+	left: 0px; 
+	padding-top: 230px; 
+	position: fixed; 
+	top: 0px; 
+	width: 100%; 
+	z-index: 9999;
+	background-image: url("../../images/Trasparent-Img.png");   
+} 
+/* ==== Waiting Screen End ==== */
+
+
+/* ==== Button & Link Style Start ==== */
+.qmBtnPurple {
+    background: url("img_bg_dark_left.gif") no-repeat 0 1px transparent;
+    border: 0 none; 
+    float: left; 
+    margin: 0 10px 0 0;
+    padding: 1px 0 0 7px;
+	text-decoration: none; 
+}
+
+.qmBtnPurple span {
+    background: url("img_bg_dark_right.gif") no-repeat right 0 transparent;  
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 8px 12px 11px 6px;
+	font: normal 12px arial;
+	color: #FFFFFF !important;
+	text-decoration: none; 
+} 
+
+.qmBtnGrey {
+    background: url("qmBtnGrey_l.png") no-repeat scroll 0 0 transparent; 
+    float: left; 
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 7px;
+	font-weight: bold; 
+	text-decoration: none;
+}
+.qmBtnGrey span {
+    background: url("qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
+    cursor: pointer;
+    float: left;
+    padding: 11px 12px 12px 13px;
+	font: normal 12px Arial;
+	color: #333333 !important;
+	text-decoration: none;
+	text-align: center;
+} 
+
+.qmBtnPurpleADD {
+	background: url("img_bg_dark_left.gif") no-repeat scroll 0 1px transparent;
+	border: 0 none; 
+	float: left;  
+	margin: 0 10px 0 0;
+	padding: 1px 0 0 7px;
+	text-decoration: none; 
+	}
+
+.qmBtnPurpleADD span {
+	background: url("img_bg_dark_right.gif") no-repeat scroll right 0 transparent;
+	cursor: pointer;
+	float: left;
+	margin: 0;
+	padding: 7px 16px 11px 10px;
+	color: #FFFFFF !important;
+	font: normal 12px Arial;
+	line-height:normal;
+	width:auto !important;
+	text-decoration: none; 
+	}
+
+a.qmBtnPurpleADD span span.plus {
+	background:url("../../images/img_plus_add.gif") 0 0 no-repeat;
+	float:left;
+	height:19px;
+	margin:-1px 10px 0 0;
+	padding:0;
+	width:19px !important;
+	text-decoration: none;  
+}
+
+/* --- Link Style Starts --- */
+.qmLink {
+    color: #094575;
+     text-decoration: underline;
+   
+}
+
+.qmLink:hover {  text-decoration: none;
+   
+}
+
+a.qmBQEdit {
+	float: left;
+	padding: 0px 0px 0px 15px;
+	margin: 0px;
+	font: Normal 12px Arial;
+	color: #094575 !important;
+	text-decoration: underline !important;
+	
+	background: url("../../images/qmBQEditIcon.png") no-repeat 0 0;
+	}
+
+a.qmBQEdit:hover {
+	text-decoration: none;
+	
+	}
+
+a.qmBQDelete {
+	background:url("../../images/qmIconExit.gif") no-repeat right 2px;
+	color:#094575; 
+	float:left; 
+	padding: 0 18px 2px 0;
+	font: normal 12px Arial;
+	
+	text-decoration: underline !important;
+	}
+
+a.qmBQDelete:hover { text-decoration:none;
+	
+	} 
+
+a.qmBQMore {
+	text-decoration: none;
+	font: normal 12px Arial; 
+	Color: #094575;
+ 	margin: 0px;
+	padding: 0px 20px 0px 0px;
+	background:url("../../images/qmRightArrow.gif") right 0px no-repeat;
+	}
+
+a.qmBQMore:hover {
+	text-decoration: underline;
+	} 
+
+.qmBQLink {
+    font: normal 12px Arial;
+    color: #094575 !important;
+    text-decoration: underline !important;
+	padding: 0px 5px 0px 0px; 
+	
+}
+
+a.qmBQLink:hover {
+	
+	text-decoration: none;
+}
+ 
+.qmBQButton {
+	float: right;
+	padding: 7px 10px 0px 0px;
+	vertical-align:middle;
+	font: 12px Arial;	
+}
+
+a.qmBQPDAddMore {
+    background: url("../../images/qmBQAdd.png") no-repeat scroll 0 1px transparent;
+    color: #216A8A;
+    float: left;
+    font: 12px Arial;
+    margin: 5px 0 0;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+a.qmBQPDAddMore:hover {
+	text-decoration: underline;
+}
+/* ==== Button Style Ends ==== */
+
+ 
+/* === Textbox & Select Starts === */  
+.qmTxtField {  
+    width: 172px;
+	height: 14px; 
+	float: left;
+	margin: 0px;
+	padding: 4px 0px 4px 2px;
+	font: normal 12px Arial; 
+	background-color: #ffffff;
+	border: 1px solid #C3C3C3;
+}
+
+input.qmBQtxtbox,
+select.qmBQtxtbox,
+.qmBQtxtbox1,
+input.qmBQMyActivityDate,
+textarea.qmBQtxtbox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C3C3C3;
+    font: normal 12px Arial;  
+	color:#666666;
+ 	padding: 4px 0px 4px 2px;
+}
+
+input.qmBQtxtbox[type=text] {
+	width: 197px;
+} 
+
+input.qmBQMyActivityDate {
+	widht: 167px;
+}
+
+select.qmBQtxtbox {
+	padding: 1px 1px 1px;
+	margin-right: 4px;
+	height: 24px;
+	float: left;
+}
+
+select.qmBQDate {
+	width: 65px;
+}
+
+select.qmBQOthers {
+	width: 200px;
+}
+
+input.qmBQDatePicker {
+	background:url("../../images/img_icon_datepicker.gif") no-repeat scroll 154px 5px #ffffff !important;
+	cursor: pointer;
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+ 	width: 174px;
+	} 
+
+.qmBQtxtbox1 {
+	background: none;
+	border: none;
+	font: bold 12px Arial; 
+	padding: 0px 0px 0px 2px;
+}
+
+input.qmBQBlur {
+  	border: 1px solid #C3C3C3 !important;
+    font: 11px Arial !important;
+    color: #666666 !important;
+    margin: 0;
+    padding: 5px 0 5px 2px;
+}
+
+.qmBQtextarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C3C3C3;
+    font: normal 12px Arial; 
+    padding: 0;
+	color:#666;
+	padding:10px; 
+	width: 496px;
+	line-height: 18px;
+	height: 100px;
+}
+
+input.qmBQBlur {
+  	border: 1px solid #C3C3C3;
+    font: 15px Arial;
+    margin: 0;
+    padding: 5px 0 5px 2px;
+}
+
+input.qmBQReadOnly {
+	background: #F3F3ED;
+	color: #333333 !important;
+}
+/* === Textbox & Select Ends === */
+
+
+/* ==== Success & Validation Message style Starts ==== */
+.qmBQSuccessfulMsg,
+.qmBQSuccessfulMsg2col {
+    background: url("../../images/img_icon_info.gif") no-repeat scroll 10px 6px #20698A;
+    color: #FFFFFF;
+    display: inline-block;
+    font: 12px Arial;
+    height: 30px;
+    padding: 7px 3px 3px 35px;
+    width: 488px;
+}
+
+.qmBQSuccessfulMsg2col {
+	width: 685px;
+}
+	
+.validationalert,
+.qmBQAccordionHead .validationalert,
+.qmBQPaymentForm .validationalert,
+.qmBQSRPopup .validationalert {
+	background: #feffaf
+		url("../../images/error/img_alert_icon.gif") 10px 10px
+		no-repeat;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	padding: 15px 0 10px 50px;
+	margin-bottom: 10px;
+	line-height: 1.2em;
+	width: 90%;
+	color: #222;
+	font-size: Normal 12px Arial;
+}
+
+.qmBQPaymentForm .validationalert {
+	width: 655px; 
+	margin: 10px 0px;
+}
+.loginAlert {
+	width:auto;
+	clear: both;
+	padding-right:20px;
+}
+.qmBQSRPopup .validationalert {
+	width:  650px;
+}
+
+.acc_cnt .validationalert {
+	width: 865px;	
+	margin-bottom:10px;
+}
+
+.qmBQPDEditReg .validationalert {
+	width: 825px;
+	margin: 2px 0px 10px 0px;	
+}
+
+.validationalert li,
+.qmBQAccordionHead .validationalert li {
+	font: normal 12px Arial;
+	list-style-type: none;
+	padding: 0px;
+	margin: 2px 0 0 0;
+}
+
+.validation_fail {
+	background-color:#feffaf !important;
+}
+.validation_pass {
+	background-color:#fff !important;
+}
+
+.qmBQAccordionHead .validationalert {
+	width: 670px;
+}
+
+.qmMandatory,
+.mandatoryElement {
+    color: #CF1111 !important;
+    display: inline !important;
+    font: bold 12px Arial;
+    margin: 0 2px 0 1px;
+    padding: 0 !important;
+    width: 5px !important;
+    float: none !important;
+}
+ 
+/* ==== Success & Validation Message style Ends ==== */
+
+
+/*=== Buy, Gift & Transfer Qmile TAB Starts === */
+.qmBQTransTabMain {
+    float: left;
+    margin: 30px 0 10px;
+    padding: 0;
+    position: relative;
+    width: 528px;
+    display: inline-block;    
+}
+
+ul.qmBQTransTab {
+    border-bottom: 5px solid #3D7690; 
+    height: 28px;
+    list-style: none outside none;
+    margin: 0px 0px 10px 0px;
+    padding: 0 0 0 13px;
+    width: 515px;
+} 
+  
+ul.qmBQTransTab li {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	height: 44px !important;  
+ 	background:#ffffff; 
+ }
+
+ul.qmBQTransTab li.selected {
+	background: #3d7690;
+    color: #ffffff;
+	font: bold 12px Arial; 
+} 
+	
+ul.qmBQTransTab li a {
+	text-decoration: none;
+	color: #333333;
+	float: left;
+	border-bottom: solid 5px #3d7690;
+	font : bold 12px Arial; 
+ 	margin: 0px;
+	outline: none;  
+	padding:  0px  12px;
+	height: 28px;
+	line-height: 32px;
+     }
+  
+ul.qmBQTransTab li a:hover { 
+    color: #094575;
+	height:28px; 
+	font: bold 12px Arial;
+	line-height: 32px;
+} 
+
+ul.qmBQTransTab li.active  {
+ 	background:url("../../images/qmOffersTabArrow.png") center 32px no-repeat !important;
+}
+ 
+ul.qmBQTransTab li.active, 
+ul.qmBQTransTab li.active a:hover, 
+ul.qmBQTransTab li.active a  {
+ 	background: #3d7690;
+    color: #ffffff !important;
+	font: bold 12px Arial;
+	line-height: 32px; 
+}
+ 	
+.qmBQTransTabContainer {
+	border-top: none;
+ 	clear: both; 
+	width: 528px;
+	background: #ffffff; 
+ 	margin: 0px;
+	padding: 0px;
+	display: none;
+    }
+ 
+.qmBQTransTabContent {
+ 	width: 526px;
+ 	float: left;
+ 	margin: -15px 0 0 0;
+	padding: 20px 0 0 0; 
+	display: none; 
+	font: normal 12px Arial; 
+  }
+/*=== Buy, Gift & Transfer Qmile TAB Ends === */
+  
+
+/* === User Updates Starts === */
+#qmHeader1 {
+    height: 85px;
+    margin: 0 auto;
+    padding: 0;
+    width: 961px;
+}
+
+
+#qmNavigation01 { 
+   background: #fff none repeat scroll 0 0;
+   margin: 0 auto;
+   width: 100%;
+}
+
+#qmNavigation01 .navwrap {
+    margin:0 auto;
+    width: 961px;
+    height: 51px;
+    text-align: left;
+}
+#qmNavigation01 .navwrap ul {
+float:left;
+}
+
+.qmSearch{
+	float:right;
+}
+
+#qmNavigation01 ul li:first-child {
+    padding-left: 0;
+}
+#qmNavigation01 ul li {
+    float: left;
+    padding: 16px 20px 13px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+#qmNavigation01 ul li:hover,#qmNavigation01 ul li.selected {
+    border-bottom: 3px solid #900652;
+   background: none transparent;
+}
+
+#qmNavigation01 ul li a {
+
+color:#000;
+}
+
+
+
+/* New Menu Style --- Rajesh--- */
+
+#qmNavigation02 { 
+   background: #fff none repeat scroll 0 0;
+   margin: 0 auto;
+   width: 100%;
+}
+
+#qmNavigation02 ul {
+    margin:0 auto;
+    width: 961px;
+    height: 51px;
+    text-align: left;
+}
+
+#qmNavigation02 ul li:first-child {
+    padding-left: 0;
+}
+#qmNavigation02 ul li {
+    float: left;
+    padding: 16px 20px 13px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+#qmNavigation02 ul li:hover,#qmNavigation02 ul li.selected {
+    border-bottom: 3px solid #900652;
+   background: none transparent;
+}
+
+#qmNavigation02 ul li a {
+
+color:#000;
+}
+
+
+/*  #qmNavigation02 { 
+    display: inline;
+    float: left;
+    margin: 52px 0 0 0px;
+    padding: 0;
+    width: 281px;
+}
+#qmNavigation02 ul {
+	margin: 0;
+	padding: 0;
+}
+
+#qmNavigation02 ul li {
+	display:inline;
+	float:left;
+	padding:0px 0 0 0;/*background: url(../../images/common/img_nav_pipe.gif) no-repeat right 8px;
+}
+#qmNavigation02 ul li.last {
+	background: none;
+}
+#qmNavigation02 ul li.selected {
+	background: #1F3F4C; 
+	display:inline;
+	float:left;
+	height:28px;
+	padding:0px;
+	behavior: url(PIE.htc); 
+	border-radius: 3px 3px 0px 0px;
+	-moz-border-radius: 3px 3px 0px 0px;
+ 	-webkit-border-radius: 3px 3px 0px 0px; 
+	position: relative;
+	
+  }
+
+
+#qmNavigation02 ul li.selected a {
+	color:#FFFFFF;
+}
+#qmNavigation02 ul li a {
+	font-size: 0.8em;
+	color: #301e29;
+	font-family:arial;
+	padding: 7px 9px 0 9px;
+	text-decoration: none !important;
+	display:inline;
+	float:left;
+}
+#qmNavigation02 ul li a:hover {
+	text-decoration: underline;
+}
+
+*/
+
+
+/* === User Updates Ends === */
+
+
+/* === Scroll to Top Starts === */
+.qmClear {
+	clear:both;
+	} 
+  
+ #qmScrollUp{
+ 	width:63px;
+	height:43px;			
+	text-indent:-9999px; 
+	position: fixed;
+	bottom:100px; 
+	display:none;			
+	background:url("../../images/qmGoTop.png") no-repeat;
+	float: left;
+	margin-left: 1000px;
+	}
+/* === Scroll to Top Ends  === */
+
+.qmBQRequiredFld{
+    color: #666666; 
+    font: 11px Arial !important; 
+    margin-right: 10px; 
+    text-align: right; 
+    display: block;
+}
+
+
+.qmBQSeprator {
+    border-top: 1px solid #C3C3C3;
+    float: left;
+	height: 1px;
+    margin: 10px 0 0;
+    padding: 0 0 10px;
+    width: 100%;
+}
+
+.popupBtns{
+	margin: 0 0 0 124px;
+	float: left;
+	width: 158px;
+}
+
+.popupBtnsDeLink{
+	margin: 0 0 0 124px;
+	float: left;
+}
+.activeli {
+	background-color:#ccc;
+}
+
+.ui-autocomplete {
+	max-height:200px !important;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.ui-autocomplete li a:hover {
+	font-weight:normal !important;
+}
+.qmWhereCanIfly {
+	 float: left;
+    padding-left: 35px;
+}
+
+.qmWhereCanIflyPrev {
+    float: left;
+}
+.qmMyoffersMainRegister {
+    color: #094575 !important;
+    margin: 5px 0 0;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}
+.loginTop {
+	top: 18px;
+}
+
+.loginTop1 {	
+	
+}
+.qmTableCollapse{
+	padding: 0px;
+    border-collapse: collapse;
+}
+.centerText{
+	text-align:center;
+}
+.tableFWidth{
+	width:100%;
+}
+.mandatoryStarPad{
+	padding-right:5px;
+}
+.hiddenBlock{
+	visibility:hidden;
+}
+.show-on-focus{ 
+	position:absolute;
+	display:block;
+	top:0;	
+	left:-200px; 
+	padding:5px; 
+	background:#fff; 
+	border:1px solid;
+	text-decoration:none;
+	color:#0088cc ;
+	font-family:arial;
+}
+/** :focus*/
+input:focus,a:focus,select:focus,textarea:focus
+{
+    outline: 1px solid #66afe9 !important;
+}
+.qmMainTab li a:focus{
+
+	border:2px solid #66afe9;
+}
+.floatLeft{
+	float:left;
+}
+.showBlock{
+	display:block !important;
+}
+/* New*/
+.homeorworksel{
+	height:25px;
+	width:58px;
+}
+.countryCodeTxt{
+	width: 48px !important;
+}
+.tableFWidth{
+	width:100%;
+}
+.attachFileBlock{
+	float: left;
+    width: 250px;
+}
+.uploadCancelLink{
+	float:right;
+	padding: 7px 10px 0px 0px;
+}
+.autoWidth{
+	width:500px !important;
+}
+.orCancelSpan{
+	margn:0px 15px 0px 5px;
+}
+.alignBtn{
+	float:right;
+}
+
+.hiddenAccessible{
+	position: absolute !important;
+    left: -9999px !important;
+}
+
+.qmHeaderDt{
+	display:inline;
+	float:right;
+	margin:0 0 0 0;
+	overflow:hidden;	
+	font-family:arial;	
+	padding: 0 0 0 10px;
+    font-size: 0.8em;
+    color: #fff;
+    padding-top: 15px;    
+}
+
+
+div#qmLogo {
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+div#qmLogo a {
+	color:#000000;
+	font-family:arial;
+	font-size:0.8em;
+	 text-decoration: none;
+	 display:inline-block;
+	 float:left;
+	 margin-top:25px;
+	 margin-right:20px;
+}
+div#qmLogo img {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	/*padding-top: 25px;*/
+	
+}
+
+div#qmLogo1 {
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+}
+div#qmLogo1 a {
+	color:#000000;
+	font-family:arial;
+	font-size:0.8em;
+	 text-decoration: none;
+}
+div#qmLogo1 img {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	padding-top: 25px;
+	
+}
+
+.logoutId{
+	color:  #fff; 
+}
+
+.screenreader {border: 0; 
+   clip: rect(0 0 0 0); 
+   height: 1px; 
+   width: 1px; 
+   margin: -1px; 
+   padding: 0; 
+   overflow: hidden; 
+   position: absolute !important;
+}
+
+.ow_logo {
+    float: left;
+    /*height: 34px;*/
+   /* margin-top: 4px;*/
+    /*padding-left: 16px;*/
+}   
+
+.qmBQQbizEditC {
+	clear: both;
+	background:#b30067;
+	color:#fff!important;
+	padding: 4px;font-family: arial;font-size: 14px;
+	
+	
+}
+
+
+.show-on-focus:active, .show-on-focus:focus{ 
+                                left: 0; 
+                                border: 1px #66afe9  solid; 
+                                background-color: #fff; 
+    							top:5px;
+} 
+ .uppercaseCss{
+	text-transform: uppercase;
+}
+
+.BenDtlsview:focus{outline: 1px solid #66afe9 !important;}
+
+
+
+/*
+    Colorbox Core Style: Start
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(../../images/qmWhiteOverlay.png) repeat 0 0; opacity: 0.3 !important; filter: alpha(opacity = 30);}
+#colorbox{outline:0;}
+    #cboxTopLeft{width:21px; height:21px; background:url(../../images/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(../../images/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(../../images/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(../../images/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(../../images/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(../../images/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(../../images/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(../../images/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-top:28px;}
+        #cboxTitle{position:absolute; top:4px; left:0; text-align:left; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{background:url(../../images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(../../images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(../../images/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(../../images/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxClose{position:absolute; top:0; right:0; background:url(../../images/img_icon_close.gif) no-repeat 0 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:0 0;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+/*
+    Colorbox Core Style: END
+   
+*/
+
+.loadingMsg {
+	
+}
+
+abbr {
+    border:none;
+}
+
+
+.buttoncssaccru {
+	float: right!important;
+}
+
+.qmBQBuyGiftTrabsfer {
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    float: left; 
+    color: #333333;
+}
+
+
+.qmBQBuyGiftTrabsfer th {
+	border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	height: 38px;
+	vertical-align: middle;
+	background:url(../../images/qmContentHeadBg.png) repeat-x; 
+    font: bold 12px Arial;   
+    line-height: 36px; 
+    text-indent: 10px;
+    text-align: left;
+}
+
+.qmBQBuyGiftTrabsfer td {
+   border-right: 1px solid #dedede;
+   border-bottom: 1px solid #dedede;
+   height: 32px;
+   vertical-align: middle;
+   font: normal 12px Arial;
+   padding: 0px 5px 0px 0px;
+   margin: 0px;
+   text-indent: 10px;
+   color: #666666;
+} 
+
+
+.qmBQDeptFltContainerAcc {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cfcfcf;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 5px;
+    float: left;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 718px;
+}
+

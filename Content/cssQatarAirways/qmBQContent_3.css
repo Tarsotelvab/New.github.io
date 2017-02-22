@@ -1,0 +1,2134 @@
+
+/* === Book with Qmiles Tab === */  
+
+.qmBookWithQmilesTab {
+	width: 528px;
+	padding: 0px;
+	margin: 20px 0px 0px 0px;
+	float: left; 
+	}
+
+.qmBookWithQmilesTab h2 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: #666666;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+/* --- Book with Qmiles Tab Style --- */ 
+.qmBQTabContainer {
+	float: left;
+	width: 528px; 
+	margin-top: 20px;
+	padding: 0px; 
+	}
+	
+.qmBQTabContainer  ul.qmBQTab { 
+	float:left;
+	margin: 0;
+	padding: 0;
+ 	height: 47px;
+	width: 528px;
+	font: 12px normal  Arial;
+	background:url("../../images/qmRBookingTabBar.jpg") repeat-x 0 41px ;
+	}
+	
+.qmBQTabContainer  ul.qmBQTab li {
+	float: left;
+	margin-right: 5px;
+	padding:  0px 10px;
+	height: 40px !important;
+ 	background: #ffffff;
+	list-style-type:none;
+	border-top: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;
+	border-right: 1px solid #d5d5d5;
+	}
+
+.qmBQTabContainer  .qmBQTab li.selected {
+	background: url("../../images/qmRBookingTabBg.jpg") repeat-x;
+    color: #ffffff;
+}
+ 
+.qmBQTabContainer  ul.qmBQTab li img {
+ 	float: left;
+ 	border: 0px;
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	margin: 10px 3px 0px 10px; 
+	cursor: pointer
+	}
+	
+.qmBQTabContainer  ul.qmBQTab li a {
+	text-decoration: none;
+	color: #333333;
+	display:block;
+	font-size: 12px;
+	padding:  0px 0px;
+	margin: 0px;
+	outline: none; 
+ 	height: 40px;
+ 	font-family: Arial;
+	text-align:center;
+	line-height: 38px; 
+     }
+  
+ul.qmBQTab li:hover {
+  	background: url("../../images/qmRBookingTabBg.jpg") repeat-x;
+	height:40px;
+	padding:  0px 10px;
+ 	color: #ffffff;
+	font-family:arial; 
+	border-top: 1px solid #3e7893;
+	border-left: 1px solid #3e7893;
+	border-right: 1px solid #3e7893;
+}
+
+ul.qmBQTab li.active a,
+ul.qmBQTab li:hover a {
+	color: #FFFFFF;
+}
+
+ul.qmBQTab li.active {
+ 	background: url("../../images/qmRBookingTabBg.jpg") repeat-x;
+    color: #ffffff !important;
+	font-family: arial;
+	border: none; 
+	height: 40px;
+	border-top: 1px solid #3e7893;
+	border-left: 1px solid #3e7893;
+	border-right: 1px solid #3e7893;
+}
+ 	
+.qmBQContentContainer {
+ 	float:left;
+	border-top: none;
+ 	clear: both;
+ 	width: 526px;
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px; 
+	display:none; 
+    }
+	
+.qmBQLeftCorner {
+	-moz-border-radius: 5px 0px 0px 0px;
+	-khtml-border-radius: 5px 0px 0px 0px;
+	-webkit-border-radius: 5px 0px 0px 0px;
+  	border-radius: 5px 0px 0px 0px; 
+	behavior: url(PIE.htc);
+	position:relative;
+	}
+
+.qmBQRightCorner {
+	-moz-border-radius: 0px 5px 0px 0px;
+	-khtml-border-radius: 0px 5px 0px 0px;
+	-webkit-border-radius: 0px 5px 0px 0px;
+  	border-radius: 0px 5px 0px 0px; 
+	behavior: url(PIE.htc);
+	position:relative;
+	}
+ 
+.qmBQTabContainer  .qmBQContent {
+ 	width: 526px;
+ 	margin: 0px;
+	padding: 0px; 
+	display: none; 
+	background:#fff;
+     }
+ 
+.qmBQContent .qmDivContent {
+	float: left;
+	padding: 10px;
+	margin: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	}
+ 
+.qmBQTabContainer  a.closeBtn {
+    background: url("../../images/img_icon_close.gif") no-repeat scroll right top transparent;
+    color: #301E29;
+    display: inline;
+    float: right;
+    font-size: 11px;
+    height: 20px;
+    margin: 5px 0px 0px 0px;
+    padding: 4px 36px 0px 10px; 
+    text-decoration: none;
+    width: 20px; 
+	position:relative;
+	font-weight: bold;
+}  
+
+ /* ----- Tab Content Style ----- */
+.qmBookWithQmiles {
+    float: left;
+    padding: 0px 0px 0px 0px;
+	margin-bottom: 10px;
+    width: 526px;
+ 	background: url("../../images/qmBookQmilesBg.jpg") repeat-x; 
+	border-left: solid 1px #cfcfcf;
+	border-right: solid 1px #cfcfcf;
+	border-bottom: solid 1px #cfcfcf;
+	}
+
+.qmBookWithQmiles p {
+	font: normal 12px Arial;
+	padding: 0px;
+	margin: 5px 0px 5px 15px;
+	line-height: 18px;
+	color: #666666;
+	clear:both;
+	}
+	
+.qmBookWithQmilesContainer{
+	width: 513px;
+	padding: 0px 0px 10px 13px;
+	margin: 0px;
+	float: left;
+  	} 
+
+.qmBWQLeftContainer {
+	float: left;
+	width: 375px;
+	padding: 0px;
+	margin: 22px 0px 0px 0px;
+	}
+	
+.qmBookWithQmilesContainer form { 
+	padding: 0px;
+	margin: 0px;
+	}
+ 
+.qmFormRow {
+	float: left;
+	width: 375px;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+ 	}
+
+.qmFormCol {
+	float: left;
+	padding: 0px;
+	margin: 0px 25px 0px 0px; 
+	 width: 175px;
+
+ 	}
+ 
+.qmFormCol1 {
+	width: 70px;
+	float: left;
+	padding: 0px;
+	margin: 0px 10px 0px 0px 
+	} 
+
+	
+.qmFormRow label {
+	float: left;
+	height: 12px;
+ 	color: #301E29;
+ 	padding: 0px 0px 7px 0px;
+ 	text-align: left; 
+	font-weight:bold;
+	font-size: 12px;
+	font-family: Arial;
+	}
+	
+.qmFormCol label { 
+	width: 175px; 
+	}
+.subscrip label {
+	float:none !important;
+}
+
+.qmFormCol .promotionCode {
+	font-weight: normal !important;
+	margin-top: 17px !important;
+	width: 145px !important;
+	}
+	
+.qmFormCol1 label {
+ 	width: 65px;
+  	}
+	
+.qmFormContainer {
+	width: 45px;
+	float: left;
+	padding: 0px;
+	margin: 0px 20px 0px 0px 
+	}
+
+.qmFormContainer img {
+	float: left;
+	height: 20px;
+	width: 20px;
+	padding: 0px;
+	margin: 0px;
+	}
+.qmFormContainer input[type=radio] {
+	float:left;
+}
+
+.qmBookingClass {
+    background-color: #FFFFFF;
+    border: 1px solid #C3C3C3;
+    float: left;
+    height: 24px;
+    margin: 0px;
+    padding: 0;
+    width: 177px;
+}
+
+.qmBookingClassDD {
+    background-color: #FFFFFF;
+    border: 1px solid #C3C3C3;
+    float: left;
+    height: 24px;
+    margin: 0px;
+    padding: 0;
+    width: 191px;
+}
+
+.qmDatePicker {
+	background:url("../../images/img_icon_datepicker.gif") no-repeat scroll 154px 3px #FFFFFF !important;
+	cursor: pointer;
+	padding: 5px 0 5px 0px;
+	margin: 0px;
+ 	width: 174px;
+	} 
+ 
+  .qmDatePicker_rd {
+	background:url("../../images/img_icon_datepicker.gif") no-repeat scroll 154px 3px #FFFFFF !important;
+	cursor: pointer;
+	padding: 5px 0 5px 0px;
+	margin: 0px;
+ 	width: 174px;
+	} 
+.qmRadioBtn {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	}
+
+.qmAgeGroup {
+	width: 53px;
+	float: left;
+	padding: 0px;
+	margin: 0px 8px 0px 0px 
+	}
+
+.qmAgeGroup label {
+	width: 50px !important;
+	padding: 0px 0px 3px 0px !important;
+	margin: 0px !important; 
+	}
+	
+.qmAgeStyle {
+	float: left;
+	font-size: 10px;
+ 	padding:0px;
+	width: 50px;
+	margin: 0px 0px 5px 2px;
+	height: 10px;
+	font-family: Arial;
+ 	}
+
+.qmAgeGroupImage {
+	float:left;
+	padding: 0px;
+	margin: 0px 3px 0px 0px;
+	width:11px; 
+	} 
+ 
+.qmSelectAgeGroup {
+	background-color:#FFFFFF;
+	border:1px solid #C3C3C3;
+	float:left;
+	height:24px;
+	margin: 9px 0px 0 0;
+	padding:0;
+	width:36px;
+	}
+ 
+ 
+.qmBookWithQmiles .qmBQLast {
+	margin-right: 0px !important;
+	padding-right: 0px !important;
+ 	}
+
+.qmBookWithQmiles .qmNoLabel {
+	width: 154px !important;
+    margin-top: 3px !important;
+ 	}
+ 
+.qmQuestions {
+ 	margin: 8px 0px 0px 4px;
+	cursor:pointer;
+	}
+#qmBQRefNo1, #qmBQRefNo2 {
+	margin: 5px 0 0 4px !important;
+}
+
+ 
+/* ---- Previous Search ---- */ 
+#qmPreviousSearch {
+	float: left;
+	width: 116px;
+	padding: 0px;
+	margin: 22px 0px 0px 10px;
+	}
+
+.qmPreviousSearchTitle {
+	display: block;
+    overflow: hidden;
+	height: 24px;
+	width: 114px; 
+	border: solid 1px #e3e3e3;
+ 	height: 24px;
+	background:#f6f6f6;
+	padding: 0px;
+	margin: 0px;
+	} 
+
+.qmPreviousSearchTitle a {
+	float: left;
+ 	font-family: Arial;
+	font-size: 11px;
+	color: #333333;
+	background: url("../../images/qmArrowDown.png") no-repeat right 5px;
+ 	margin: 0px;
+	padding: 5px 16px 5px 5px;
+	text-decoration: none;
+ 	outline: none; 
+	}
+
+#qmSearchResult {
+	background: #ededed;
+	border: solid 1px #e3e3e3;
+ 	height: auto;
+	display: block;
+ 	}
+#qmSearchResult a {
+	text-decoration:none;
+}
+	
+#qmSearchResult h3,
+#qmSearchResult p  {
+	width: 114px;
+	padding: 5px;
+	margin: 0px;
+	color: #114760;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 18px;
+	}
+	
+#qmSearchResult p  {
+	color: #666666 !important;
+	font-weight: normal !important;
+	padding-top: 0px !important;
+	float: none;
+	}
+
+
+
+/* === Center Panel Content Starts === */ 
+#qmTopContent,.qmTopContent {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+ 	}
+
+#qmTopContent h1,.qmTopContent h1 {
+	font-size: 16px;
+	font-family: arial;
+	color: #333333;
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	} 
+	
+	#qmTopContent h2,.qmTopContent h2 {
+	font-size: 16px;
+	font-family: arial;
+	color: #333333;
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	} 
+	
+#qmTopContent p,.qmTopContent p {
+	float: left;
+	padding-bottom: 5px;
+	margin: 0px;
+ 	font: normal 12px/20px arial;
+	color: #333333;
+ 	width: 100%;
+	}
+
+#qmTopContent h3,.qmTopContent h3 {
+	float:left;
+	font-size: 13px;
+	font-family: arial;
+	color: #333333;
+	padding: 0px 0px 10px 0px;
+	margin: 30px 0px 0px 0px;
+	}  
+
+.qmContentTextWidth {
+ 	width: 528px !important;
+	margin-left: 0px !important;
+	}
+
+.qmParaBottom {
+	padding-bottom: 28px;
+	}
+#qmBQTopContent {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+ 	}
+
+#qmBQTopContent h1 {
+	font: bold 16px arial;
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	width: 100%;
+	} 
+	
+	.qmBQHeaserth3 {
+	font: bold 12px arial;
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	width: 100%;
+	} 
+#qmBQTopContent p {
+	float: left;
+	padding-bottom: 5px;
+	margin: 0px;
+ 	font: normal 12px/20px arial;
+	color: #333333;
+ 	width: 100%;
+	}
+	
+/* === Right Panel User Widget, Image & FAQ's Starts === */ 
+.qmMyAccount  {
+      float: left;
+      width: 175px; 
+      padding-bottom: 10px;  
+      }
+      
+.qmBQBurgundy{
+      background:url("../../images/burgundyBg1.jpg") no-repeat;
+      color: #FFFFFF;
+      background-size:175px 340px;
+}
+.qmBQBurgundy h1{
+      background:url("../../images/burgundyBg1Header.jpg") repeat-x bottom;
+     }
+
+.qmBQGold {
+      background:url("../../images/goldBg1.jpg") no-repeat scroll 0 bottom;
+      /*color: #4c4c4c;*/
+      color: #FFFFFF;
+      background-size:175px 340px;
+}
+.qmBQGold h1{
+      background:url("../../images/goldBg1Header.jpg") repeat-x bottom;
+ }
+.qmBQSilver {
+      background:url("../../images/sliverBg1.jpg") no-repeat scroll 0 bottom;
+      color: #FFFFFF;
+      background-size:175px 340px;
+}
+.qmBQSilver h1{
+      background:url("../../images/sliverBg1Header.jpg") repeat-x bottom;
+}
+.qmBQPrivilegeClub {
+      background:url("../../images/privilegeclubBg1.jpg") no-repeat scroll 0 bottom;
+      color: #FFFFFF;
+      
+}
+.qmBQPrivilegeClub h1{
+      background:url("../../images/privilegeclubBg1Header.jpg") repeat-x bottom;
+}
+
+.qmBQPlatinum {
+	background:url("../../images/platinumBg1.jpg") no-repeat  scroll 0 bottom;
+	color: #FFFFFF;
+	background-size:175px 340px;
+}
+
+.qmBQPlatinum h1{
+      background:url("../../images/platinumBg1Header.jpg") repeat-x bottom;
+}
+
+.qmMyAccount h1 { 
+      width: 167px;
+      min-height: 23px;
+      font: bold 12px Arial; 
+      padding: 8px 0px 8px 8px;
+      margin: 0px;
+      }
+
+
+.qmMyAccount h2 { 
+      width: 167px;
+      min-height: 23px;
+      font: bold 12px Arial; 
+      padding: 8px 0px 8px 8px;
+      margin: 0px;
+      }
+      
+.qmCreditialContent {
+      float: left;
+      width: 159px;
+      margin: 0px 1px;
+      padding: 1px 8px 1px 8px;
+      border-bottom: solid 1px #dedede !important;
+      } 
+      
+.qmCreditialContent .qmCContent { 
+      width: 100%;
+      float:left;
+      margin: 0px;
+      padding: 0px;  
+      display: inline-block;
+      }
+      
+.qmCreditialContent .qmCContent li { 
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px 0px 7px 0px;
+      display: inline-block;
+}
+
+.qmCreditialContent .qmCContent li label {  
+		display: inline-block;
+		padding: 0px; 
+		margin: 0px;
+		font: bold 11px arial;
+		width: 100%;
+		float:left;
+}
+
+.qmCreditialContent .qmCContent li p { 
+      width: 100%;
+      display: inline-block;
+     padding: 0px; 
+      margin: 0px;
+     font: bold 14px arial;
+      }     
+      
+.qmBQCCDiv {
+      float: left;
+      width: 58px;
+}
+
+.qmBQWidth {
+      width: 100px;
+}
+
+.qmCreditialContent span {
+      display: inline-block;
+      margin: 0px;
+      padding: 3px 0px;
+      font-family:arial;
+      font-weight:bold;
+      font-size:11px;
+      color: #fffb89;
+}
+.qmBQGold .qmCreditialContent span {
+	color:#4c4c4c;
+}
+.qmMyAccountDetails {
+      display: inline-block;
+      width: 165px;
+      margin: 3px 0px 0px 10px;
+      padding: 0px;
+      }
+
+.qmMyAccountDetails li {
+      list-style-type: none; 
+      padding: 3px 0 0 0;
+      margin: 0px;
+      background: url("../../images/qmBQBullets.png") no-repeat 0 8px;
+      }
+
+.qmMyAccountDetails li a {
+      margin: 0px 0px 3px 0px;
+      padding: 0px 0px 0px 10px;
+      font: bold 11px/14px arial;  
+      float:left;
+      color: #ffffff;
+      text-decoration: none;
+      }
+.qmBQGold .qmMyAccountDetails li a {
+	  color: #ffffff;
+}
+.qmMyAccountDetails li a:hover {
+      text-decoration: underline;
+}
+
+.qmBQBBNone {
+      border-bottom: none;
+}
+
+.qmBQLogout {
+	width: 50px;
+	float: right;
+	padding-left: 12px;
+	margin: 0px;
+	text-decoration: none;
+	background: url("../../images/qmDoubeArrow.png")  no-repeat 0 5px;
+	font-size: 11px;
+	font-family: arial;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	} 
+ 
+.qmRightImage {
+	float: left;
+	width: 175px;
+	height: 150px; 
+	margin-top: 30px;
+	padding: 0px;
+	} 
+
+#qmRelatedFaq {
+	width: 173px; 
+	float: left; 
+	margin-top: 50px;
+	border: solid 1px #cccccc;
+	}
+
+#qmRelatedFaq h4 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+	padding: 13px 5px 5px 9px;
+ 	}
+
+.qmFAQContent {
+	float:left;
+ 	padding: 0px 5px 10px 9px;
+	}
+
+.qmFAQContent li {
+	list-style-type: none;
+	background:url("../../images/qmSqrBullets.jpg") 3px 8px no-repeat;
+	font-family: Arial;
+	font-size: 11px;
+	color: #666666;
+	padding-left: 10px;
+	line-height: 18px;
+	}
+	
+.qmFAQContent li a {
+    color: #666666;
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+}
+.qmFAQContent li a:hover {
+    color: #094575;
+    text-decoration: underline;
+}
+/* === Right Panel User Widget, Image & FAQ's Ends === */ 
+ 
+ 	
+/* Footer Offers */
+
+.MyDealsSection{border-top:1px solid #d0d0d0; padding:24px 0;}	
+
+h3.qm_title {color: #555555; font-family: arial; font-size: 15px; line-height:20px; font-weight:normal;padding: 0; margin:0 0 10px;}
+
+.qmLeftMargin1 {
+	margin-left: 13px;
+	}
+
+.qmLeftMargin2 {
+	margin-left: 14px;
+	}
+.qmEarnQmilesContent {
+	border: 1px solid #B1B1B1;
+	float: left;
+	height: 115px;
+	width: 294px;
+	}
+.qmEarnQmilesText {
+	float: left;
+	height: 87px;
+	line-height: 22px;
+	margin: 0;
+	padding: 14px;
+	width: 136px;
+	}
+.qmEarnQmilesContent img {
+	float: left;
+	height: 115px;
+	margin: 0;
+	padding: 0;
+	width: 130px;
+	}
+
+.qmEarnQmilesText p {
+	color: #333333;
+	float: left;
+	font-family: arial;
+	font-size: 12px;
+	}
+.qmJoinNowLink {
+	background: url("../../images/img_icon_open.gif") no-repeat scroll right 4px transparent;
+	color: #094575 !important;
+	float: right;
+	font-family: arial;
+	font-size: 11px;
+	line-height: 22px;
+	margin: 0px 0 0;
+	padding: 0 20px 0 0;
+	text-decoration: none;
+	}
+
+.selectmenu{
+	background-color: #D0FFFF !important;
+	} 
+
+
+/*  --------  */
+#qmContentContainer1{
+	   margin: 0 auto;
+    padding: 20px 0 0;
+    width: 961px;
+}
+.leftMenuSelected{
+	background: url("../../images/qmSubmenu_s.png") no-repeat scroll 3px 13px #A7A7A7; 
+} 
+
+.hoverOnlinks{
+	background-color:#E3E3E3;
+	color:#333333;
+}
+.openaccordian{
+	display:block;
+}
+.leftMenuSelectedWithoutIcon{
+	background: #A7A7A7;
+	
+}
+
+
+/* Buy Gift Transfer content starts */ 
+.qmBQTransTabContent h4 {
+	width: 506px;
+	margin: 0px 10px;
+	padding: 0px;
+	float: left;
+	font:normal 12px Arial;
+	line-height: 18px;
+	float: left;
+	color: #333333;
+} 
+ 
+.qmBQTransQmiles {
+	float: left;
+	width: 526px;  
+	padding: 0px 0px 30px 0px ;
+	margin: 0px;
+	/*background: url("../../images/qmBookQmilesBg.jpg") repeat-x scroll 0 0 transparent;*/  
+}
+
+.qmBQTransQmiles h1 {
+	float: left;
+	width: 516px;
+	height: 30px;
+	padding: 0 0 0 10px;
+	margin: 0px 0px 5px 0px;
+	font:bold 15px/32px Arial;
+	color: #666666;
+	background:url("../../images/qmBQEMHeaderBg.jpg") repeat-x 0 0; 
+	border-top: solid 1px #CBCACA;
+	border-bottom: solid 1px #CBCACA;
+}
+
+.qmBQCostCal,
+.qmBQCostCal1 {
+	visibility:hidden;
+}
+	
+.qmBQTransRow {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 10px 0px 0px 0px; 
+}
+
+.qmBQTransRow label {
+	float: left;
+	width: 180px;
+	padding: 0px;
+	margin: 0px;
+	font: Bold 12px Arial;
+	color: #666666;
+	text-align: right;
+}
+
+.qmBQTransQmiles .txt11px {  
+	color:#666666;
+}
+
+.qmBQTransRow span{ 
+	font: normal 12px Arial;
+	color:#F00;
+}
+
+.qmBQTransRow p {	
+	float: left;
+	width: 325px;
+	padding: 0px 0px 5px 20px;
+	margin: 0px;
+	font: Normal 12px Arial;
+	color: #666666;
+	text-align: left;
+}
+/* Buy Gift Transfer content ends */  
+  
+
+/* === Family Details === */ 
+.qmBQProfileContainer {
+    width: 528px;
+    float: left;
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0px 15px 0px;
+    border-bottom: 1px solid #dedede;
+	background: #fff;
+}
+
+.qmBQProfileContainer .qmBQPDAddMore {
+	margin-bottom: 20px;	
+}
+
+.qmBQProfileContainer p {
+	float: left;
+	font: normal 12px Arial;
+	padding: 0px; 
+	width: 520px;
+}
+
+.qmBQProfileContainer h1 {
+    width: 528px;
+    float: left;
+    padding: 0px;
+    margin: 15px 0px 5px 0px;
+    font: Bold 13px Arial;
+    color: #333333;
+} 
+
+#qmBQPFContContainer {
+    width: 528px;
+    float: left;
+    padding: 0px;
+    margin: 0px;;
+} 
+
+#qmBQPFContContainer1 {
+    width: 528px;
+    float: left;
+    padding: 0px;
+    margin: 0px;;
+} 
+
+.qmBQPFRowContainer {
+    float: left;
+    width: 528px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.qmBQPFRowContainer li {
+    width: 528px;
+    list-style-type: none;
+    padding: 0px 0px 10px 0px;
+    margin: 5px 0px;
+    display: inline-block; 
+}
+
+.qmBQPFRowContainer li p {
+    width: 100%;
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    font: bold 13px Arial;
+    color: #333333;
+} 
+  
+.qmBQProfileNote {
+    float: right;
+    font: normal 11px Arial;
+    color: #333333;
+    height: 18px;
+    margin: 3px 10px 10px 0px;
+}
+
+.qmBQProfileNote span {
+    color: #f00;
+    padding: 0px;
+    margin: 0px;
+    font: bold 12px Arial;
+}
+ 
+.qmBQPFContianer { 
+    padding: 0px;
+    margin: 0px 14px 0px 0px;
+    float: left;
+}
+
+.qmBQPFContianer label {
+    float: left;
+    width: 100%;
+    font: bold 12px Arial;
+    color: #333333;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+.qmBQPFContianer label span,.qmBQPFContianer label abbr {
+	color: #F00;
+	font: bold 12px Arial;	
+}
+
+.qmBQPFContianer label i  { 
+	font: normal 12px Arial;	
+}
+.qmBQRow {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 513px;
+}
+.qmBQRow h1 {
+	float: left;
+	width: 100%;
+	font: bold 13px Arial;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+.qmBQRow input[type=radio] {
+	margin-left: 0px;
+}
+.qmBQRow li {
+	list-style-type: none;
+	display: block;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	float: left;
+	width: 100%;
+}
+.qmBQRow li p {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 5px 0px;
+	font: normal 12px Arial;
+} 
+
+.qmBQRow li label{
+	float: left;
+	margin-bottom: 3px;
+	font-weight: bold;
+} 
+
+
+/* === UpComing Tips start === */ 
+#qmBQUpcoming {
+	float: left;
+	width: 511px;
+	margin:10px 0px; 
+}
+
+#qmBQUpcoming td {
+	color: #666666;
+}
+ 
+#qmBQUpcoming .qmBQFlightName {
+	padding: 5px 0px 0px 20px;
+	color: #666666;
+}
+
+#qmBQUpcoming .qmBQDFCenterContent {
+	margin: 5px 0px;
+	width:200px;
+}
+/* === UpComing Tips Ends === */ 
+ 
+
+/* ==== Table Header Starts  ==== */
+.qmBQEMContainer {
+	width: 526px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-right: solid 1px #cfcfcf;
+	border-left: solid 1px #cfcfcf;
+	border-bottom: solid 4px #cfcfcf;
+}
+
+.qmBQEMHeader {
+	width: 521px; 
+	height: 22px;
+	background: #427D98;
+ 	padding:7px 0px 7px 5px;
+	margin: 0px 0px 1px 0px; 
+	font: bold 13px/22px Arial;
+	color: #ffffff; 
+}
+
+ .qmBQEMContent {
+    color: #666666;
+    float: left;
+    font: 12px Arial;
+    margin: 15px 0;
+    padding: 0;
+    width: 526px;
+}
+
+.qmBQEMContent h3 {
+	float: left;
+	width: 100%;
+	font-size: 13px;
+} 
+/* ==== Table Header Ends  ==== */
+
+
+/*======= Accrodion =======*/
+.qmBQAccordion {
+	width: 720px;
+	margin: 25px 0px;
+	float: left;
+}
+
+.qmBQAccordionHead {
+	float: left;
+	width: 720px;
+	padding: 0;	
+	margin: 0 0px 2px 0px;
+	background: url("../../images/qmArrowRight.png") no-repeat 10px 8px #083D55;
+	height: 35px; 
+}
+
+.qmBQAccordionHeadDone {
+	padding: 0px 0px 0px 40px;	
+	margin: 0px 0px 2px 0px;
+	background: url("../../images/qmBQAccordionDone.png") no-repeat 10px 8px;
+	height: 34px; 
+	width: 680px; 
+	float: left;
+	color: #333333; 
+	display: none; 
+	font: bold 13px Arial; 
+	line-height: 34px;
+	border-bottom: solid 1px #dedede;
+}
+
+.qmBQAccordionHeadDone span {
+	width: 5px;
+	padding: 0px;
+	margin: 0 15px;
+}
+
+.qmBQAccordionHeadDone a {
+	text-decoration: none;
+	color: #094575;
+	padding: 0 18px 0 0px;
+	font: normal 12px Arial;
+	background:url("../../images/qmArrowRight_Small.jpg") no-repeat right 0;
+}
+
+.qmBQAccordionHeadDone a:hover{
+	text-decoration: underline;
+}
+
+.qmBQAccordionHead a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 40px;
+	font: bold 13px Arial;
+	line-height: 34px; 
+}
+ 
+.qmBQAccordionActive {
+	background: url("../../images/qmArrowcCarouselDown.png") no-repeat 10px 8px #083D55;
+	}
+
+.qmBQAccordionContainer {
+	margin: 0 0 5px; 
+	padding: 0;
+	overflow: visible; 
+	width: 720px;
+	clear: both; 
+}
+.qmBQAccordionContainer .qmBQAccordionContent {
+	padding: 0px;
+}
+
+.qmBQAccordionDone {
+ 	margin: 0 0px 2px 0px;
+	background:url("../../images/qmBQAccordionDone.png") no-repeat 10px 8px #ffffff;
+	height: 35px;	
+	line-height: 34px;
+	width: 680px; 
+	float: left; 
+	padding: 0 0 0 40px;
+	font-family: Arial; 
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* Payment table */
+.qmBQPayTableContainer {
+    float: left;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    border: 1px solid #DFDFDF;
+    border-bottom: 5px solid #DFDFDF;
+    width: 718px;
+}
+
+.qmBQPayContentHead {
+    float: left;
+    width: 718px;
+    padding: 0px;
+    margin: 15px 0px 8px 0px;
+    font: normal 14px Arial;
+    color: #333333;
+}
+   
+.qmBQPayment {
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    float: left; 
+    color: #333333;
+}
+
+.qmBQPayment th {
+	border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	height: 38px;
+	vertical-align: middle;
+	background:url("../../images/qmContentHeadBg.png") repeat-x; 
+    font: bold 12px Arial;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 10px;
+    line-height: 36px; 
+    text-align: left;
+}
+
+.qmBQPayment th {
+	text-align: left;
+}
+
+.qmBQPayment td {
+   border-right: 1px solid #dedede;
+   border-bottom: 1px solid #dedede;
+   height: 32px;
+   vertical-align: middle;
+   font: normal 12px Arial;
+   padding: 0px 5px 0px 10px;
+   margin: 0px;
+   color: #666666;
+} 
+
+/* Grand Total sytle */
+.qmBQGrandTotal {
+	float: left;
+	width:718px;
+	height: 68px;
+	padding:0px;
+	margin: 5px 0px 20px 0px;
+	border: solid 1px #cfcfcf;
+}
+
+.qmBQGrandTotal .qmBQGTInnerDiv {
+ 	width:708px;
+	height: 58px;
+	padding:0px;
+	margin: 0px;
+	border: solid 5px #c2d7e0; 
+}
+
+.qmBQGrandTotal p,
+.qmBQGrandTotal span {
+	font: bold 14px Arial;
+	color: #333333;
+	padding: 0px;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+}
+
+.qmBQGrandTotal span {
+	font: bold 18px Arial;
+	margin: 0px 0px 0px 10px;
+}
+
+.qmBQGrandTotal .qmBQPDLink {
+	font-size: 12px;
+	margin: 0px 0px 0px 20px;
+}
+
+
+/*===== Payment Details Form ====== */ 
+.qmBQPaymentForm,
+.qmBQCCPaymentForm {
+	width: 688px;
+	padding: 15px;
+	margin: 5px 0px 20px 0px;
+	border: 1px solid #d0d0d0;
+	background: none repeat scroll 0 0 #F2F2EC;
+	float: left;
+	font-family: Arial;
+} 
+
+.qmBQCCPaymentForm {
+	margin: 20px 0px 0px 0px;
+	width: 496px;
+	display: none;
+ }
+
+.qmBQPaymentForm p {
+    font: normal 12px Arial;
+}
+
+fieldset {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset legend {
+    display: none;
+}
+
+.qmBQPaymentForm .row {
+    border: 1px solid transparent;
+    display: inline;
+    float: left;
+    margin-bottom: 0;
+    padding: 5px 0px 5px 0px;
+    width: 505px;
+	clear: both;
+}
+
+.row.simple {
+    margin: 0; 
+}
+
+.qmBQPayDetailsRow {
+    float: left;
+    padding: 0 15px 0 0;
+    width: 235px;
+}
+
+.qmBQPayDetailsRow label, 
+.qmBQPayDetailsRow span  {
+    display: block;
+    float: none;
+	font: bold 12px Arial;
+    padding: 0px 0px 5px 0;
+}
+
+.qmBQPayDetailsRow select.dropDown {
+    width: 228px;
+	font-size: 12px !important;
+    height: 25px;
+}
+.qmBQPayDetailsRow select.monthYear {
+    width: 110px;
+}
+.qmBQPayDetailsRow select {
+    font-size: 0.8em !important;
+    height: 25px;
+}
+
+.qmBQPayDetailsRow input {
+    background-color: #FFFFFF;
+    border: 1px solid #C3C3C3;
+    display: inline;
+    float: left;
+    font-size: 0.8em !important;
+    margin: 0;
+    padding: 5px 0 5px 8px;
+    width: 218px;
+}
+
+
+.qmBQPayDetailsRow input.securityNumberField, 
+.qmBQPayDetailsRow input.issueField {
+    margin: 0 5px 0 0;
+    width: 35px;
+}
+
+.notShown {
+    clear: both;
+    float: left;
+    height: auto;
+    overflow: hidden;
+	width: 500px;
+}
+
+
+.ffNumberDropdown, .dateDropdown, .monthDropdown, .yearDropdown, .labelInput, .labelDropDown {
+    display: none !important;
+}
+
+a.whatsThis {
+    background: url("../../images/img_action_icon.gif") no-repeat scroll 0 0 transparent;
+    color: #094575;
+    display: block;
+    float: left;
+    font-size: 0.8em;
+    margin: 5px 0 0;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+a.whatsThis:hover {
+	text-decoration: underline;
+}
+
+.cardholder {
+    background: none repeat scroll 0 0 #F2F2EC;
+    font-size: 0.75em;
+    position: inherit;
+    vertical-align: middle;
+}
+	
+.informationTable {
+	display: block;
+} 
+/* ==== My Payment Styles ends ==== */
+  
+  
+.payByQmile {
+	display: inline !important;
+}
+ 
+/* Registration css fix */
+.qmRadioBtn table td { width: 55px; display: inline-block; }
+.qmRadioGender table td { width: 65px; display: inline-block; }
+.qmRadioBtn table td label,
+.qmRadioGender table td label { display: inline-block !important; }
+
+.prefList table td { width: 78px; float:left;}
+.prefList table td label { display: inline-block !important; font-weight: normal !important; }
+
+ 
+ 
+.mandatoryElement{font-size:11px; color:#cf1111; font-weight:bold; font-family: Arial; float: none !important;}
+.mandatoryElementLabel{font-size:11px; color:#cf1111; font-weight:bold; font-family: Arial;}
+
+/* My Activity & Claim Qmiles TOOL Tip*/
+.qmFltInfDtls {
+	width:22px;
+	height:21px;
+	position:relative;
+}
+
+.qmViewStmtDtl {
+	width:22px;
+	height:21px;
+	position:relative;
+	display: inline-block;
+}
+
+.qmToolTipWrapper,
+#qmViewStmtWrapper,
+#qmLatestActivityWrapper,
+#qmBQClaimHistory  {
+	display:none;
+	color:#3c2b35;
+ 	position:absolute;
+	z-index:9999; 
+	width:371px; 
+	padding: 0px;
+	 margin: 0 0 0;
+	 top:1%;
+}
+
+#qmBQClaimHistory  { width: 261px; } 
+	
+.qmToolTipWrapper .qmToolTipTop, 
+.qmToolTipWrapper .qmToolTipBottom {
+	clear:both;
+	height:19px;
+	margin:0 auto;
+	width:351px;
+}
+
+#qmBQClaimHistory .qmToolTipTop, 
+#qmBQClaimHistory .qmToolTipBottom {
+	clear:both;
+	height:19px;
+	margin:0 auto;
+	width:241px;
+} 
+
+.qmToolTipWrapper .qmToolTipTop {
+	background:url("../../images/flightInfoTooltipTop.png") left top no-repeat;
+} 
+.qmToolTipWrapper .qmToolTipBottom {
+	background:url("../../images/flightInfoTooltipBottom.png") left top no-repeat;
+}
+.qmToolTipWrapper .qmToolTipMiddle {
+	background:url("../../images/flightInfoTooltipHorizontalBg.png") no-repeat scroll 0px center transparent;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	width:371px;
+}
+
+#qmBQClaimHistory .qmToolTipTop {
+	background:url("../../images/TooltipTop.png") left top no-repeat;
+}
+
+#qmBQClaimHistory .qmToolTipBottom {
+	background:url("../../images/TooltipBottom.png") left top no-repeat;
+}
+
+#qmBQClaimHistory .qmToolTipMiddle {
+	background:url("../../images/TooltipHorizontalBg.png") no-repeat scroll 0px center transparent;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	width:261px;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle .topHeading {
+	background:url("../../images/flightInfoBig.gif") 0 5px no-repeat;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	padding:10px 0 0px 48px;
+	width:252px;
+}
+
+#qmBQClaimHistory .qmToolTipMiddle .topHeading  {
+	background:url("../../images/flightInfoBig.gif") 0 0 no-repeat;
+	height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0 10px 50px;
+    width: 170px;
+} 
+
+.qmToolTipWrapper .qmToolTipMiddle .topHeading .borderBottom {
+	border-bottom: 1px solid #D0D0D0;
+	height:auto;
+	overflow:hidden;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle .topHeading h2 {
+	float:left;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight:Bold;
+	padding-bottom: 10px;
+	margin: 5px 0 0 0;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle .topHeading a.close {
+	background:url("../../images/img_icon_remove.gif") no-repeat right 1px;
+	font-size:12px;
+	float:right;
+	margin-top:0;
+	padding: 0 18px 2px 0;
+	text-decoration:none;
+}
+.qmToolTipWrapper .qmToolTipMiddle .topHeading a.close:hover {
+	text-decoration:underline;
+}
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails {
+	float:left;
+	height:auto;
+	margin-left:8px;
+	overflow:hidden;
+	width:140px;
+	padding: 0px;
+}
+
+#qmBQClaimHistory .qmToolTipMiddle ul.flightDetails {
+	float:left;
+	height:auto;
+	margin-left:8px;
+	overflow:hidden;
+	width:218px;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.first {
+	margin-left:45px !important;
+}
+
+#qmBQClaimHistory .qmToolTipMiddle ul.first {
+	margin-left:25px !important;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li {
+	clear:both;
+	display:block;
+	float:left;
+	font-size:12px;
+	margin:4px 0;
+	width:140px;
+}
+
+#qmBQClaimHistory .qmToolTipMiddle ul.flightDetails li {
+	clear:both;
+	display:block;
+	float:left;
+	font-size:12px;
+	margin:4px 10px;
+	width:198px;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li ul.breakup {
+	width: 130px; 
+	padding: 0px;
+	margin: 0px;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li ul.breakup li {
+	width: 130px;
+	list-style-type: none;
+	margin: 2px 0px 0px 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li ul.breakup li label {
+	width: 75px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li ul.breakup li span {
+	float: left;
+	width: 5px;
+	clear:none; 
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li ul.breakup li p {
+	float: left;
+	width: 50px;
+	text-align: right;
+	margin: 0px;
+	padding: 0px; 
+}
+	
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li span {
+	clear:both;
+	float:left;
+	width:99%;
+	margin:1px 0;
+	font: 12px Arial
+}
+.qmToolTipWrapper .qmToolTipMiddle ul.flightDetails li span.label {
+	font-weight:bold;
+}
+/*--------*/
+
+
+/*paging start (My Activities page & Claim missing Qmiles page) */
+.qmBQPagingDiv {
+	float: left;
+	width: 200px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.qmBQPagingDiv h3 {
+    margin-top: 0px;
+}
+
+ul.qmBQPaging {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.qmBQPaging li{
+	float: left;
+	display: block;
+	margin: 5px 2px 0px 0px;
+	padding: 0px;
+	list-style-type: none;
+	font: bold 12px arial; 
+	background: none; 
+}
+
+ul.qmBQPaging li a {
+	text-decoration: none;
+	padding: 0px 0px 0px 2px;
+	font: normal 12px arial;
+	color: #094575;
+}
+
+ul.qmBQPaging li a:hover {
+	text-decoration: underline;
+}
+
+a.qmBQNext {
+	display: inline-block;
+	background:url("../../images/qmRightArrow.gif") right 0 no-repeat;
+	padding: 0 18px 0 15px !important;
+}
+
+a.qmBQNext:hover {
+	text-decoration: underline;
+ }
+
+/* Excess Baggage */
+table.qmBQExcessBagageDiv {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 526px;
+}
+
+.qmBQExcessBagageDiv td {
+    border-bottom: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    color: #666666;
+    font: 12px Arial;
+    height: 0;
+    padding: 8px 5px;
+    text-align: left;
+}
+
+.qmBQExcessBagageDiv th {
+    background: none repeat scroll 0 0 #609DBA;
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font: bold 12px Arial;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+}
+
+#qmBQRefNoDiv ,.qmBQRefNo, .qmBQEtktNo{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #000000;
+    display:none;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    left:20%;
+    width: 800px;
+    z-index: 9999;
+}
+a.closeBtn {
+    background: url("../../images/img_icon_close.gif") no-repeat scroll right 5px transparent;
+    color: #301E29;
+    float: right;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    margin: 0;
+    padding: 8px 8px 3px 3px;
+    text-decoration: none;
+    top: 0;
+    width: 50px;
+}
+#qmBQRefNoOverlay {
+   	display:none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left:0;
+	position:fixed;
+	padding: 0px;
+	margin: 0px;
+	background:url("../../images/qmWhiteOverlay.png") repeat scroll 0 0 transparent;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+  	filter: alpha(opacity=20);
+	z-index: 999;
+}
+
+#qmBQCookieOverlay {
+   	display:none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left:0;
+	position:fixed;
+	padding: 0px;
+	margin: 0px;
+	background:url("../../images/qmWhiteOverlay.png") repeat scroll 0 0 transparent;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+  	filter: alpha(opacity=20);
+	z-index: 999;
+}
+
+.qmFormCol10 {
+	float: left;
+	padding: 0px;
+	margin: 0px 25px 0px 0px; 
+ 	}
+	
+.qmFormCol10 label { 
+	width: 175px; 
+	}
+
+.qmFormCol10 .promotionCode {
+	font-weight: normal !important;
+	margin-top: 17px !important;
+	}
+ .noMar {
+ 	margin:0 !important;
+ }
+ .nopad {
+ 	padding:0 !important;
+ }
+
+/* === Popup Delete or not (Travel Coordinator & Family details) starts === */
+.qmBQOverlay {
+    background-color: #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+	top: 0;    
+    position: fixed;    
+    width: 100%;
+    z-index: 9998;
+	display: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;  
+}
+
+.qmBQpromptPopup {
+	width: 420px;
+	height: 120px; 
+	display: none; 
+	position: fixed; 
+	top: 50%;
+    left: 50%;
+    margin-left: -210px;
+    margin-top: -60px; 
+	padding: 16px 28px 0 5px;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 10px #000000;
+	z-index: 9999; 	
+	background: #ffffff; 
+	behavior: url(PIE.htc); 
+}
+
+.qmBQpromptPopup p {
+	float: left;
+	width: 400px; 
+	padding: 10px 10px 20px 0px;
+	margin: 0px;
+	font: normal 13px Arial;
+	color: #000000;
+	text-align: center;
+	}
+/* === Popup Delete or not (Travel Coordinator & Family details) ends === */
+
+.whatsThis {
+	background: "../../images/img_action_icon.gif" no-repeat 0 0;
+	display: block;
+	padding: 0 0 0 20px !important;
+	margin: 5px 0 0 0 !important;
+	color:#6C1D4C;
+	float: left;
+	text-decoration:none;
+	font-size: 0.8em;
+	cursor:pointer;
+}
+
+.cvvWrapper {
+	display:none;
+	position:fixed;
+	width:600px;
+	height:auto;
+	border: 1px solid #999999;
+    box-shadow: 0 0 10px #000000;
+	-moz-box-shadow: 0 0 10px #000000;
+	-webkit-box-shadow: 0 0 10px #000000;
+	border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	left:25%;
+	top:30%;
+	z-index:1001;
+	background:#fff;
+}
+
+.cvvBox{margin:0 20px; padding:0px;}
+.cvvBox h1#logo img {padding:0px;}
+.cvvBox h2.cvvTitle {font:bold 15px Arial, Helvetica, sans-serif; float:left; color:#37172A; border-bottom:1px solid #D3D2D2; padding:5px 0px; width:100%; margin:10px 0px; text-align:left;}
+.cvvBox h2.cvvTitle span {background:url("../../images/img_icon_close.gif") no-repeat right top; padding-right:25px; float:right; height:25px; line-height:22px; font-weight:normal; font-size:11px; cursor:pointer; }
+.cvvBox h2.cvvTitle span a {color:#491D37; font-size:12px; font-weight:normal;}
+.cvvBox .cvvCont{margin:1px 0px; padding:0px 0px 20px 0; font:normal 11px Arial, Helvetica, sans-serif; color:#37172A; float:left; width:100%; min-height:265px;}
+.cvvBox .cvvCont p{margin:15px 20px; padding:0px;list-style-type:disc; font:normal 12px Arial, Helvetica, sans-serif; color:#37172A;}
+.cvvBox .cvvCont img {margin-left:20px;}
+
+.overlay1 {
+      background:url("../../images/transbg.png") 0 0 repeat;
+      background:#ccc;
+      display:none;
+      left:0;
+      position:absolute;
+      width:100%;
+      top:0;
+      z-index:1000;
+}
+.qmMyoffersRegister{
+ color: #094575 !important;
+    float: right;
+    font-family: arial;
+    font-size: 11px;
+    margin: 5px 0 0;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}
+.qmDashboardCenter{
+	text-align: -moz-center;
+	padding-top:26%;
+}
+.qmCenterUpcomingTrip{
+	text-align: -moz-center;
+}
+
+.qmRelatedFooterContent {
+	width:100%
+	float: left; 
+	
+	}
+
+.qmRelatedFooterContent p {
+	font-family: Arial;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+	padding: 13px 5px 5px 9px;
+ 	}
+
+.qmRelatedFooterContent li {
+	list-style-type: none;
+	background:url("../../images/qmSqrBullets.jpg") 3px 8px no-repeat;
+	font-family: Arial;
+	font-size: 11px;
+	color: #666666;
+	padding-left: 10px;
+	line-height: 18px;
+	}
+	
+.qmPdfDwnld {
+	float: right;
+	margin: -1px 0 0;
+}
+
+.qmEbPymtMode {
+	color: #666666;
+    font: 12px Arial;
+    margin-left: 5px;
+    width: 100px;
+}
+
+
+.confirmationMessage {
+    background: url("../../images/img_icon_info.gif") no-repeat scroll 12px 10px #20698A;
+    color: #FFFFFF;
+    float: left;
+    font: 12px Arial;
+    margin: 0 0 3px;
+    padding: 10px 0 10px 38px;
+    width: 490px;
+}
+
+
+.ow_logo_pre_Qbiz {
+    float: left;
+    height: 34px;
+    margin-top: 4px;
+    padding-left: 16px;
+}
+
+.ow_logo_pre_Qbiz {
+    float: left;
+    height: 34px;
+    margin-top: 9px;
+    padding-left: 16px;
+}
+
+h1#qmLogo a {
+    color: #000000;
+    font-family: arial;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+#qrlogo a {
+    display: block;
+    overflow: hidden;
+    text-indent: -200px;
+}
+
+h1#qmLogo span {
+    float: left;
+    padding-right: 15px;
+
+}
+#qrlogo {
+    display: block;
+    height: 34px;
+    margin-top: 12px;
+    width: 339px;
+}
+
+.bgtcolor  {
+	color: #666666 !important;
+}
+
+.qmBQCenterContentDiv {
+    float: left;
+    margin: 19px 0 0;
+    padding: 0;
+    width: 529px;
+}
+
+.qmContentDivider {
+    border-bottom: 1px solid #d0d0d0;
+    float: left;
+    font: 12px/16px Arial;
+    margin: 19px 0 0;
+    padding: 0;
+    width: 528px;
+}
+
+.qmBQOffersImage {
+    float: left;
+    height: 75px;
+    width: 100px;
+}
+
+.qmBQContentText {
+    float: left;
+    margin-left: 15px;
+    width: 413px;
+}
+
+.qmBQContentText a {
+    color: #094575;
+    font: 12px/16px Arial;
+}
+
+.qmFloatR, .flR {
+    float: right !important;
+}
+
+a, a:active, a:focus {
+    text-decoration: underline;
+}
+
+a, img {
+    border: 0 none;
+    outline: 0 none;
+}
+
+.qmMyoffersMainRegister {
+    color: #094575 !important;
+    margin: 5px 0 0;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+}
+
+.qmMBImage {
+    float: left;
+    height: 75px;
+    width: 100px;
+}
+
+a.qmBtn {
+    font-weight: bold;
+}
+
+.qmBtn {
+    background: url("../../images/img_bg_dark_left.gif") no-repeat scroll 0 0 transparent;
+    color: #ffffff !important;
+    float: left;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 7px;
+}
+
+
+.qmBtn span {
+    background: url("../../images/img_bg_dark_right.gif") no-repeat scroll right 0 transparent;
+    cursor: pointer;
+    float: left;
+    font-family: Arial;
+    padding: 7px 12px 11px 7px;
+}
+
+.qmMore {
+    background: url("../../images/img_icon_datepicker_next.gif") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    float: left;
+    font-size: 11px;
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+.redeemWidth{
+	width:179px !important;
+}
+
+
+.ow_logo_qbiz {
+    float: left;
+    height: 34px;
+    margin-top: 11px;
+    padding-left: 6px;
+} 
+
+.qbizLinkCss{
+	color: #fff!important;
+}
+
+
+abbr {
+    border:none;
+}
+
+
+.desc1 a span.icon-external,a span.icon-external  {
+    display: inline;
+    position: relative;
+    width: 10px;
+}
+.icon-external img {
+    left: 5px;
+    position: absolute;
+    top: 3px;
+    width:15px !important;
+    height:15px !important;
+    background:url(../../images/external_new.png)  no-repeat !important; 
+   
+}
