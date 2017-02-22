@@ -8,7 +8,7 @@ body {
 
 
 .qmBtnGreyL {
-    background: url("qmBtnGrey_l.png") no-repeat scroll 0 0 transparent;
+    background: url("https://s14.postimg.org/9suk1yej5/qmBtnGrey_l.png") no-repeat scroll 0 0 transparent;
     float: left;
     margin: 0px 10px 0px 15px;
     padding: 0px 0px 0px 7px;
@@ -17,7 +17,7 @@ body {
 }
 
 .qmBtnGreyL span {
-    background: url("qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
+    background: url("https://s14.postimg.org/3t6syatqp/qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
     cursor: pointer;
     float: left;
     padding: 11px 20px 10px 13px;
@@ -30,7 +30,7 @@ body {
 
 
 /* .qmBtnGreyL {
-    background: url("../../images/qmBtnGrey_l.png") no-repeat left 0 transparent; 
+    background: url("../../images/https://s14.postimg.org/9suk1yej5/qmBtnGrey_l.png") no-repeat left 0 transparent; 
     float:right; 
    margin: 0 0 0 10px;
     padding: 0 0 0 7px;
@@ -38,7 +38,7 @@ body {
        text-decoration: none;
 }
 .qmBtnGreyL span {
-    background: url("../../images/qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
+    background: url("../../images/https://s14.postimg.org/3t6syatqp/https://s14.postimg.org/3t6syatqp/qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
     cursor: pointer;
     float:left;
        padding: 11px 12px 12px 13px;
@@ -1231,7 +1231,7 @@ ul.qmShareToolbar li, ul.qmShareToolbar li a  {
 
 /* ==== Button & Link Style Start ==== */
 .qmBtnPurple {
-    background: url("img_bg_dark_left.gif") no-repeat 0 1px transparent;
+    background: url("https://s14.postimg.org/4evrueosx/img_bg_dark_left.gif") no-repeat 0 1px transparent;
     border: 0 none; 
     float: left; 
     margin: 0 10px 0 0;
@@ -1240,7 +1240,7 @@ ul.qmShareToolbar li, ul.qmShareToolbar li a  {
 }
 
 .qmBtnPurple span {
-    background: url("img_bg_dark_right.gif") no-repeat right 0 transparent;  
+    background: url("https://s14.postimg.org/fsib5lzbl/img_bg_dark_right.gif") no-repeat right 0 transparent;  
     cursor: pointer;
     float: left;
     margin: 0;
@@ -1251,7 +1251,7 @@ ul.qmShareToolbar li, ul.qmShareToolbar li a  {
 } 
 
 .qmBtnGrey {
-    background: url("qmBtnGrey_l.png") no-repeat scroll 0 0 transparent; 
+    background: url("https://s14.postimg.org/9suk1yej5/qmBtnGrey_l.png") no-repeat scroll 0 0 transparent; 
     float: left; 
     margin: 0px 10px 0px 0px;
     padding: 0px 0px 0px 7px;
@@ -1259,7 +1259,7 @@ ul.qmShareToolbar li, ul.qmShareToolbar li a  {
 	text-decoration: none;
 }
 .qmBtnGrey span {
-    background: url("qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
+    background: url("https://s14.postimg.org/3t6syatqp/qmBtnGrey_r.png") no-repeat scroll right 0 transparent;
     cursor: pointer;
     float: left;
     padding: 11px 12px 12px 13px;
@@ -1270,7 +1270,7 @@ ul.qmShareToolbar li, ul.qmShareToolbar li a  {
 } 
 
 .qmBtnPurpleADD {
-	background: url("img_bg_dark_left.gif") no-repeat scroll 0 1px transparent;
+	background: url("https://s14.postimg.org/4evrueosx/img_bg_dark_left.gif") no-repeat scroll 0 1px transparent;
 	border: 0 none; 
 	float: left;  
 	margin: 0 10px 0 0;
@@ -1279,7 +1279,7 @@ ul.qmShareToolbar li, ul.qmShareToolbar li a  {
 	}
 
 .qmBtnPurpleADD span {
-	background: url("img_bg_dark_right.gif") no-repeat scroll right 0 transparent;
+	background: url("https://s14.postimg.org/fsib5lzbl/img_bg_dark_right.gif") no-repeat scroll right 0 transparent;
 	cursor: pointer;
 	float: left;
 	margin: 0;
